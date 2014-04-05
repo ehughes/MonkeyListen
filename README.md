@@ -1,4 +1,4 @@
-Monkeylisten
+MonkeyListen
 =========
 
 Example software for the Monkeylisten Freescale HIT Project - https://community.freescale.com/docs/DOC-100207
