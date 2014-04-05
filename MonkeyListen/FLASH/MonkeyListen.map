@@ -1,0 +1,2611 @@
+Archive member included because of file (symbol)
+
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+                              ./Sources/main.o (arm_cmplx_mag_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+                              C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o) (arm_sqrt_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                              ./Sources/main.o (arm_rfft_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                              ./Sources/main.o (arm_rfft_init_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                              C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o) (arm_radix4_butterfly_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+                              C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o) (arm_cfft_radix4_init_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+                              C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o) (arm_bitreversal_q15)
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                              C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o) (twiddleCoefQ15)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+                              ./Sources/GFX/GFX.o (vsnprintf)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (exit)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+                              ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o (rand)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o) (memcpy)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (memset)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                              (__pformatter_)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                              (__sformatter)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o) (isspace)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o) (__strtoul)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o) (__fill_mem)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (memchr)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (strchr)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o) (strlen)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+                              ./Sources/GFX/GFX.o (__aeabi_dadd)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+                              ./Sources/GFX/GFX.o (__aeabi_d2iz)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+                              ./Sources/GFX/GFX.o (__aeabi_d2uiz)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+                              ./Sources/GFX/GFX.o (__aeabi_ui2f)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_muldivsf3.o)
+                              ./Sources/GFX/GFX.o (__aeabi_fmul)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_cmpsf2.o)
+                              ./Sources/GFX/GFX.o (__aeabi_fcmplt)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixsfsi.o)
+                              ./Sources/GFX/GFX.o (__aeabi_f2iz)
+c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunssfsi.o)
+                              ./Sources/drivers/mcg/mcg.o (__aeabi_f2uiz)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__init_cpp)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                              ./Project_Settings/Startup_Code/__arm_start.o (__copy_rom_sections_to_ram)
+C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                              C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o) (__destroy_global_chain)
+
+Allocating common symbols
+Common symbol       size              file
+
+MicFFT_Mag          0x100             ./Sources/main.o
+Backbuffer          0x4               ./Sources/main.o
+GFX_BackBuffer      0x8               ./Sources/GFX/GFX.o
+MicBuffer2          0x100             ./Sources/main.o
+Activebuffer        0x4               ./Sources/main.o
+Master_Adc_Config   0x10              ./Sources/drivers/adc16/adc16.o
+MicFFT              0x200             ./Sources/main.o
+drs_val             0x1               ./Sources/drivers/mcg/mcg.o
+dmx32_val           0x1               ./Sources/drivers/mcg/mcg.o
+BackBufferStorageSpace
+                    0x440             ./Sources/GFX/GFX.o
+Mic                 0x100             ./Sources/main.o
+GFX_StringBuf       0x40              ./Sources/GFX/GFX.o
+MicBuffer1          0x100             ./Sources/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/__arm_end.o
+ .text          0x00000000        0x0 ./Sources/GFX/GFX_FONT_5x7.o
+ .data          0x00000000        0x0 ./Sources/GFX/GFX_FONT_5x7.o
+ .bss           0x00000000        0x0 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_p
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_r
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_s
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_3_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_bracket_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_v
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_x
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_F_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_O_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_curly_brace_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_question_mark_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_d_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_m_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_v_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_vertical_bar_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_J_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_0
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_1
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_2
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_3
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_4
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_5
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_6
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_7
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_8
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_9
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_pound_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_colon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_H
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_4_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_equals_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_question_mark
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_G_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_P_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Y_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_1_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_ampersand
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_vertical_bar
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_slanted_single_quote_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_e_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_n_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_at
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_underscore_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_forward_slash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_plus_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_slanted_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_underscore
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_8_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_i_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_q_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_H_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Q_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Z_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_x_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_exclamation_point
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_great_than_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_period
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_parenthesis_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_space
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_parenthesis_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_0_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_9_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_C_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_exclamation_point_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_L_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_double_quotes
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_single_quote_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_F
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_semicolon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_a_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_j_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_s_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_delete
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_ampersand_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_semicolon_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_star
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_r_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_pound
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_z_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_precent_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_D_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_M_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_V_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_f_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_less_than_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_precent_sign_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_b_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_k_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_t_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_bracket_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_comma
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_backslash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_great_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_5_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_X_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_carret
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_delete_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_E_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_N_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_W_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_comma_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_u_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_C
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7
+                0x00000000      0x184 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_at_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_tilde_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_t
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_J
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_6_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_w
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_I_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_less_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_o_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_carret_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_g_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_p_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_left_curly_brace_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_y_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_backslash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_c_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_colon_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_7_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_R_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_l
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_A_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_star_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_w_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_double_quotes_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_S_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_dollar_sign_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_U_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_plus
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_u
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_h_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_equals
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_dash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_dash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_period_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_tilde
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_2_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_space_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_forward_slash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_A
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_B
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_dollar_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_D
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_E
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_B_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_G
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_K_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_I
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_T_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_K
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_L
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_M
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_N
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_O
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_P
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_R
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_S
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_T
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_U
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_V
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_W
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_X
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_uc_Y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_l_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_a
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_b
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_c
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_d
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_e
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_f
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_g
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_h
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_i
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_j
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_k
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_right_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_m
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_n
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .rodata.GFX_FONT_5x7_FontElement_lc_o
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_info    0x00000000     0x116c ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_abbrev  0x00000000       0xa2 ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_aranges
+                0x00000000       0x18 ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_macinfo
+                0x00000000     0x3ec0 ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_line    0x00000000      0x198 ./Sources/GFX/GFX_FONT_5x7.o
+ .debug_str     0x00000000     0x1b7a ./Sources/GFX/GFX_FONT_5x7.o
+ .comment       0x00000000       0x7a ./Sources/GFX/GFX_FONT_5x7.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/GFX/GFX_FONT_5x7.o
+ .text          0x00000000        0x0 ./Sources/GFX/GFX_FONT_3x5.o
+ .data          0x00000000        0x0 ./Sources/GFX/GFX_FONT_3x5.o
+ .bss           0x00000000        0x0 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_G
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_space_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5
+                0x00000000      0x184 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_1_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_slanted_single_quote_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_less_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_P
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_bracket_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_R
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_pound
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_I_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_j_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_7_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_period
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_question_mark_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_question_mark
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_y_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_underscore_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_equals_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_carret_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_star
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_D_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_M_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_0
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_1
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_2
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_3
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_4
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_5
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_6
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_7
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_8
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_9
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_star_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_b_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_k_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_t_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_8_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_w
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_slanted_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_vertical_bar_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_pound_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_precent_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_R_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_equals
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_E_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_N_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_W_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_delete
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_underscore
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_P_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_c_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_l_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_6_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_u_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_9_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_at
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_double_quotes
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_exclamation_point
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_I
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_F_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_g_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_at_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_p_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_4_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_dollar_sign_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_backslash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_q_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_ampersand_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_v_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_comma
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_comma_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_semicolon_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_vertical_bar
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_tilde_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_carret
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_A_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_J_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_n_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_h_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Y_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_5_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_z_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_ampersand
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_O_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_great_than_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_tilde
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_double_quotes_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_plus
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_parenthesis_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_colon_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_backslash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_dash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_3_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_C_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_delete_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_B_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_K_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_T_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_A
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_B
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_C
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_D
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_i_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_F
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_r_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_H
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_great_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_J
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_K
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_L
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_M
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_N
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_O
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_colon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_d_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_S
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_T
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_U
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_V
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_W
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_X
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_curly_brace_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_precent_sign_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_a
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_b
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_c
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_d
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_e
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_f
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_g
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_h
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_i
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_j
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_k
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_l
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_m
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_n
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_o
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_p
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_r
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_s
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_t
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_u
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_v
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_L_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_x
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_m_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_X_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_semicolon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_s_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_dash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_G_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_less_than_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_0_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_e_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_V_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_2_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_w_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_period_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_plus_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_forward_slash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_S_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_single_quote_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_dollar_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_forward_slash_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_H_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Q_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_Z_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_curly_brace_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_a_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_f_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_o_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_right_parenthesis_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_lc_x_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_left_bracket_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_exclamation_point_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_E
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_space
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .rodata.GFX_FONT_3x5_FontElement_uc_U_Data
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_info    0x00000000     0x115c ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_abbrev  0x00000000       0xa2 ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_aranges
+                0x00000000       0x18 ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_macinfo
+                0x00000000     0x3ec0 ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_line    0x00000000      0x198 ./Sources/GFX/GFX_FONT_3x5.o
+ .debug_str     0x00000000     0x1b7a ./Sources/GFX/GFX_FONT_3x5.o
+ .comment       0x00000000       0x7a ./Sources/GFX/GFX_FONT_3x5.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/GFX/GFX_FONT_3x5.o
+ .text          0x00000000        0x0 ./Sources/GFX/GFX_FONT_10x14.o
+ .data          0x00000000        0x0 ./Sources/GFX/GFX_FONT_10x14.o
+ .bss           0x00000000        0x0 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_G_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_4_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_P_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Y_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_dash_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_ampersand
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_N_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_n_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_0
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_1
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_2
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_3
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_4
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_5
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_6
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_7
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_8
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_9
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_exclamation_point
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_8_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_B_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_equals_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14
+                0x00000000      0x184 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_H_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_5_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Q_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Z_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_o_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_forward_slash_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_e_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_w_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_plus
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_double_quotes_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_tilde
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_forward_slash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_i_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_delete_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_underscore_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_C_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_L_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_U_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_less_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_semicolon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_a_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_6_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_j_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_s_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_period_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_precent_sign_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_star
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_bracket_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_bracket_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_K_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_colon
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_delete
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_curly_brace_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_question_mark_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_at_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_D_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_1_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_M_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_tilde_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_V_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_exclamation_point_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_vertical_bar_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_k_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_0_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_t_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_dollar_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_question_mark
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_b_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_equals
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_X_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_vertical_bar
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_colon_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_carret
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_parenthesis_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_f_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_W_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_x_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_C
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_T_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_slanted_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_single_quote
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_backslash_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_great_than
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_I_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_R_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_single_quote_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_dollar_sign_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_3_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_g_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_p_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_y_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_at
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_2_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_u_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_space
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_great_than_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_ampersand_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_semicolon_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_period
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_B
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_A_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_star_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_J_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_7_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_S_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_pound
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_dash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_plus_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_q_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_z_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_double_quotes
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_less_than_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_S
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_precent_sign
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_U
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_curly_brace
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_f
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_A
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_E_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_pound_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_D
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_E
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_F
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_G
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_H
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_I
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_J
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_K
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_L
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_M
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_N
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_O
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_P
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_R
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_c_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_T
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_l_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_V
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_W
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_X
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_Z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_a
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_b
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_c
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_d
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_e
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_comma
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_g
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_h
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_i
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_j
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_k
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_l
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_m
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_n
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_o
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_p
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_q
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_r
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_s
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_t
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_u
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_v
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_w
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_x
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_right_curly_brace_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_z
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_comma_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_r_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_F_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_uc_O_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_h_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_space_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_underscore
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_backslash
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_y
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_d_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_9_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_m_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_lc_v_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_parenthesis
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_slanted_single_quote_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_parenthesis_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_left_bracket
+                0x00000000        0x8 ./Sources/GFX/GFX_FONT_10x14.o
+ .rodata.GFX_FONT_10x14_FontElement_carret_Data
+                0x00000000       0x1c ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_info    0x00000000     0x115f ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_abbrev  0x00000000       0xa2 ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_aranges
+                0x00000000       0x18 ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_macinfo
+                0x00000000     0x3ec2 ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_line    0x00000000      0x19c ./Sources/GFX/GFX_FONT_10x14.o
+ .debug_str     0x00000000     0x1cfe ./Sources/GFX/GFX_FONT_10x14.o
+ .comment       0x00000000       0x7a ./Sources/GFX/GFX_FONT_10x14.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/GFX/GFX_FONT_10x14.o
+ .text          0x00000000        0x0 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .data          0x00000000        0x0 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .bss           0x00000000        0x0 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_Delay
+                0x00000000        0x4 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.GetSSD1325_DataBits
+                0x00000000       0x90 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_WriteDataBytes
+                0x00000000       0x70 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_DisplayModeAllOn
+                0x00000000       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_DisplayModeAllOff
+                0x00000000       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_DisplayModeInverse
+                0x00000000       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.Test     0x00000000       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.GFX_PowerUpScreen
+                0x00000000        0x4 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.GFX_PowerDownScreen
+                0x00000000        0x4 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text          0x00000000        0x0 ./Sources/GFX/GFX.o
+ .data          0x00000000        0x0 ./Sources/GFX/GFX.o
+ .bss           0x00000000        0x0 ./Sources/GFX/GFX.o
+ .text.GFX_DrawHline
+                0x00000000       0xc4 ./Sources/GFX/GFX.o
+ .text.GFX_DrawFilledBox
+                0x00000000       0x38 ./Sources/GFX/GFX.o
+ .text.GFX_DrawBox
+                0x00000000       0x5c ./Sources/GFX/GFX.o
+ .text.GFX_Draw_DOT_FACTORY_Character
+                0x00000000      0x24c ./Sources/GFX/GFX.o
+ .text.GFX_Draw_DOT_FACTORY_String
+                0x00000000       0x68 ./Sources/GFX/GFX.o
+ .text.GFX_GetStringWidth
+                0x00000000       0x3c ./Sources/GFX/GFX.o
+ .text.GFX_GetStringWidth_CustomSpacing
+                0x00000000       0x38 ./Sources/GFX/GFX.o
+ .text.GFX_DrawListPrimitive
+                0x00000000      0x410 ./Sources/GFX/GFX.o
+ .text.GFX_DrawScaledListPrimitive
+                0x00000000      0x2e0 ./Sources/GFX/GFX.o
+ .text.GFX_DrawRotatedListPrimitive
+                0x00000000      0x464 ./Sources/GFX/GFX.o
+ .text.GFX_DrawScaledRotatedListPrimitive
+                0x00000000      0x49c ./Sources/GFX/GFX.o
+ .text.GFX_Blit
+                0x00000000       0xc4 ./Sources/GFX/GFX.o
+ .text.GFX_DrawCharacter
+                0x00000000       0x40 ./Sources/GFX/GFX.o
+ .text.GFX_DrawString_CustomSpacing
+                0x00000000       0x7c ./Sources/GFX/GFX.o
+ .text.GFX_printf
+                0x00000000       0xcc ./Sources/GFX/GFX.o
+ .text.GFX_DrawHorizontalCenteredString_CustomSpacing
+                0x00000000       0x68 ./Sources/GFX/GFX.o
+ .text.GFX_DrawRightAlignedCenteredString_CustomSpacing
+                0x00000000       0x70 ./Sources/GFX/GFX.o
+ .text.GFX_DrawString
+                0x00000000       0x7c ./Sources/GFX/GFX.o
+ .text.GFX_DrawHorizontalCenteredString
+                0x00000000       0x34 ./Sources/GFX/GFX.o
+ .text.GFX_ScaledBlit
+                0x00000000      0x3ec ./Sources/GFX/GFX.o
+ .text.GFX_ScaledDrawCharacter
+                0x00000000       0x5c ./Sources/GFX/GFX.o
+ .text.GFX_ScaledDrawString_CustomSpacing
+                0x00000000       0xbc ./Sources/GFX/GFX.o
+ .text.GFX_ScaledDrawString
+                0x00000000       0xb4 ./Sources/GFX/GFX.o
+ .text.GFX_DrawCircle
+                0x00000000      0x5e0 ./Sources/GFX/GFX.o
+ .text.GFX_GetBitFromArray
+                0x00000000       0x1c ./Sources/GFX/GFX.o
+ .text.GFX_InitImagePlane
+                0x00000000        0x8 ./Sources/GFX/GFX.o
+ .text.GET_INT_FROM_FIXED_7_8_ROUND_TO_NEAREST
+                0x00000000        0xc ./Sources/GFX/GFX.o
+ .text.FLOAT_TO_FIXED_7_8
+                0x00000000       0x3c ./Sources/GFX/GFX.o
+ .text.FMul_15_0to0_15
+                0x00000000        0xc ./Sources/GFX/GFX.o
+ .text.FMul_7_8to0_15
+                0x00000000        0xc ./Sources/GFX/GFX.o
+ .text.FMul_15_0to7_8
+                0x00000000        0xc ./Sources/GFX/GFX.o
+ .text.FMul_15_0to1_14
+                0x00000000       0x14 ./Sources/GFX/GFX.o
+ .text.ABS      0x00000000        0xc ./Sources/GFX/GFX.o
+ .rodata.Fixed_1_14_SineTable
+                0x00000000      0x200 ./Sources/GFX/GFX.o
+ .rodata.Fixed_7_8_SineTable
+                0x00000000      0x200 ./Sources/GFX/GFX.o
+ .text          0x00000000        0x0 ./Sources/cpu/arm_cm4.o
+ .data          0x00000000        0x0 ./Sources/cpu/arm_cm4.o
+ .bss           0x00000000        0x0 ./Sources/cpu/arm_cm4.o
+ .text.stop     0x00000000       0x14 ./Sources/cpu/arm_cm4.o
+ .text.wait     0x00000000       0x14 ./Sources/cpu/arm_cm4.o
+ .text.write_vtor
+                0x00000000        0xc ./Sources/cpu/arm_cm4.o
+ .text.enable_irq
+                0x00000000       0x98 ./Sources/cpu/arm_cm4.o
+ .text.disable_irq
+                0x00000000       0x38 ./Sources/cpu/arm_cm4.o
+ .text.set_irq_priority
+                0x00000000       0x18 ./Sources/cpu/arm_cm4.o
+ .debug_info    0x00000000      0x465 ./Sources/cpu/arm_cm4.o
+ .debug_abbrev  0x00000000      0x11e ./Sources/cpu/arm_cm4.o
+ .debug_loc     0x00000000       0x8b ./Sources/cpu/arm_cm4.o
+ .debug_aranges
+                0x00000000       0x48 ./Sources/cpu/arm_cm4.o
+ .debug_macinfo
+                0x00000000    0x3cc87 ./Sources/cpu/arm_cm4.o
+ .debug_line    0x00000000      0x262 ./Sources/cpu/arm_cm4.o
+ .debug_str     0x00000000      0x284 ./Sources/cpu/arm_cm4.o
+ .comment       0x00000000       0x7a ./Sources/cpu/arm_cm4.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/cpu/arm_cm4.o
+ .debug_frame   0x00000000       0x70 ./Sources/cpu/arm_cm4.o
+ .text          0x00000000        0x0 ./Sources/drivers/adc16/adc16.o
+ .data          0x00000000        0x0 ./Sources/drivers/adc16/adc16.o
+ .bss           0x00000000        0x0 ./Sources/drivers/adc16/adc16.o
+ .text.ADC_Config
+                0x00000000       0x28 ./Sources/drivers/adc16/adc16.o
+ .text.ADC_Config_Alt
+                0x00000000       0x28 ./Sources/drivers/adc16/adc16.o
+ .text.ADC_Read_Cal
+                0x00000000       0x4c ./Sources/drivers/adc16/adc16.o
+ .text.ReadADC0_SingleEnded
+                0x00000000       0x3c ./Sources/drivers/adc16/adc16.o
+ .text          0x00000000        0x0 ./Sources/drivers/frdm-k20-def.o
+ .data          0x00000000        0x0 ./Sources/drivers/frdm-k20-def.o
+ .bss           0x00000000        0x0 ./Sources/drivers/frdm-k20-def.o
+ .text.frdm_GPIO_init
+                0x00000000       0x70 ./Sources/drivers/frdm-k20-def.o
+ .text.input_rise
+                0x00000000       0x18 ./Sources/drivers/frdm-k20-def.o
+ .text.input_fall
+                0x00000000       0x18 ./Sources/drivers/frdm-k20-def.o
+ .debug_info    0x00000000      0x28f ./Sources/drivers/frdm-k20-def.o
+ .debug_abbrev  0x00000000      0x103 ./Sources/drivers/frdm-k20-def.o
+ .debug_loc     0x00000000       0x8d ./Sources/drivers/frdm-k20-def.o
+ .debug_aranges
+                0x00000000       0x30 ./Sources/drivers/frdm-k20-def.o
+ .debug_macinfo
+                0x00000000    0x3d56d ./Sources/drivers/frdm-k20-def.o
+ .debug_line    0x00000000      0x258 ./Sources/drivers/frdm-k20-def.o
+ .debug_str     0x00000000      0x205 ./Sources/drivers/frdm-k20-def.o
+ .comment       0x00000000       0x7a ./Sources/drivers/frdm-k20-def.o
+ .ARM.attributes
+                0x00000000       0x33 ./Sources/drivers/frdm-k20-def.o
+ .debug_frame   0x00000000       0x48 ./Sources/drivers/frdm-k20-def.o
+ .text          0x00000000        0x0 ./Sources/drivers/mcg/mcg.o
+ .data          0x00000000        0x0 ./Sources/drivers/mcg/mcg.o
+ .bss           0x00000000        0x0 ./Sources/drivers/mcg/mcg.o
+ .text.new_pll_freq
+                0x00000000      0x188 ./Sources/drivers/mcg/mcg.o
+ .text.pee_pbe  0x00000000       0x70 ./Sources/drivers/mcg/mcg.o
+ .text.pbe_pee  0x00000000       0xd8 ./Sources/drivers/mcg/mcg.o
+ .text.pbe_fbe  0x00000000       0x80 ./Sources/drivers/mcg/mcg.o
+ .text.fbe_pbe  0x00000000      0x114 ./Sources/drivers/mcg/mcg.o
+ .text.pbe_blpe
+                0x00000000       0x44 ./Sources/drivers/mcg/mcg.o
+ .text.blpe_pbe
+                0x00000000      0x100 ./Sources/drivers/mcg/mcg.o
+ .text.blpe_fbe
+                0x00000000       0x7c ./Sources/drivers/mcg/mcg.o
+ .text.fbe_blpe
+                0x00000000       0x44 ./Sources/drivers/mcg/mcg.o
+ .text.fei_fbe  0x00000000      0x210 ./Sources/drivers/mcg/mcg.o
+ .text.fee_fbe  0x00000000       0x70 ./Sources/drivers/mcg/mcg.o
+ .text.fbe_fbi  0x00000000      0x1a0 ./Sources/drivers/mcg/mcg.o
+ .text.fbi_fbe  0x00000000      0x21c ./Sources/drivers/mcg/mcg.o
+ .text.fbi_blpi
+                0x00000000       0x5c ./Sources/drivers/mcg/mcg.o
+ .text.blpi_fbi
+                0x00000000       0x5c ./Sources/drivers/mcg/mcg.o
+ .text.fee_fbi  0x00000000      0x188 ./Sources/drivers/mcg/mcg.o
+ .text.fei_fbi  0x00000000      0x13c ./Sources/drivers/mcg/mcg.o
+ .text.fll_freq
+                0x00000000      0x11c ./Sources/drivers/mcg/mcg.o
+ .text.fee_fei  0x00000000       0x98 ./Sources/drivers/mcg/mcg.o
+ .text.fei_fee  0x00000000      0x214 ./Sources/drivers/mcg/mcg.o
+ .text.fbi_fei  0x00000000       0xd4 ./Sources/drivers/mcg/mcg.o
+ .text.fbi_fee  0x00000000      0x248 ./Sources/drivers/mcg/mcg.o
+ .text.fbe_fee  0x00000000       0xb8 ./Sources/drivers/mcg/mcg.o
+ .text.fbe_fei  0x00000000       0xdc ./Sources/drivers/mcg/mcg.o
+ .text.what_mcg_mode
+                0x00000000      0x1a8 ./Sources/drivers/mcg/mcg.o
+ .text.atc      0x00000000      0x198 ./Sources/drivers/mcg/mcg.o
+ .text.clk_monitor_0
+                0x00000000       0x1c ./Sources/drivers/mcg/mcg.o
+ COMMON         0x00000000        0x2 ./Sources/drivers/mcg/mcg.o
+ .text          0x00000000        0x0 ./Sources/main.o
+ .data          0x00000000        0x0 ./Sources/main.o
+ .bss           0x00000000        0x0 ./Sources/main.o
+ .text.InitSysTick
+                0x00000000       0x18 ./Sources/main.o
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .text.arm_split_rifft_q15
+                0x00000000      0x110 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .text.arm_cfft_radix4_q15
+                0x00000000       0x3c C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .text.arm_bitreversal_f32
+                0x00000000       0xe4 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .text.arm_bitreversal_q31
+                0x00000000      0x1d0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .text          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .data          0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .bss           0x00000000        0x0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_2048
+                0x00000000     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable64
+                0x00000000       0x70 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_128
+                0x00000000      0x200 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable256
+                0x00000000      0x370 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_2048
+                0x00000000     0x2000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable4096
+                0x00000000     0x1f80 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armRecipTableQ15
+                0x00000000       0x80 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable128
+                0x00000000      0x1a0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_256
+                0x00000000      0x800 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoefQ31
+                0x00000000     0x6000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_1024
+                0x00000000     0x2000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_1024
+                0x00000000     0x1000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armRecipTableQ31
+                0x00000000      0x100 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable512
+                0x00000000      0x380 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_512
+                0x00000000     0x1000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_32
+                0x00000000       0x80 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_4096
+                0x00000000     0x8000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_32
+                0x00000000      0x100 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable16
+                0x00000000       0x28 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_4096
+                0x00000000     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable2048
+                0x00000000     0x1dc0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_128
+                0x00000000      0x400 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable32
+                0x00000000       0x60 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_64
+                0x00000000      0x100 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_512
+                0x00000000      0x800 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.armBitRevIndexTable1024
+                0x00000000      0xe10 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_64
+                0x00000000      0x200 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_rfft_256
+                0x00000000      0x400 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .rodata.twiddleCoef_16
+                0x00000000       0x80 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .text.__StringWrite
+                0x00000000       0x2a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .text.vsnprintf
+                0x00000000       0x34 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_info    0x00000000      0x205 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_abbrev  0x00000000       0xf0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_loc     0x00000000      0x105 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_aranges
+                0x00000000       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_line    0x00000000       0xd1 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_str     0x00000000      0x1cc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .debug_frame   0x00000000       0x4c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(vsnprintf.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .text.rand     0x00000000       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .text.srand    0x00000000        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .data.random_next
+                0x00000000        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_info    0x00000000      0x100 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_abbrev  0x00000000       0x8e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_aranges
+                0x00000000       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_line    0x00000000       0x8f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_str     0x00000000      0x152 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .debug_frame   0x00000000       0x30 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(rand.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .text.memcpy   0x00000000       0x12 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_info    0x00000000      0x10f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_abbrev  0x00000000       0x95 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_loc     0x00000000       0x59 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_aranges
+                0x00000000       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_line    0x00000000       0x8b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_str     0x00000000      0x138 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .debug_frame   0x00000000       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memcpy.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isalnum  0x00000000       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.iscntrl  0x00000000       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isdigit  0x00000000        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isgraph  0x00000000       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.islower  0x00000000       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isprint  0x00000000       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.ispunct  0x00000000       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isupper  0x00000000       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isxdigit
+                0x00000000       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.isblank  0x00000000       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text.tolower  0x00000000        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .text          0x00000000      0x370 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000       0x50 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .text          0x00000000       0x40 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000       0xec c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000       0x40 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .data          0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixunssfsi.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xa C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0x8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_hardware
+                0x00000000        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x000000f8         xr
+m_cfmprotrom     0x00000400         0x00000010         xr
+m_text           0x00000800         0x0001f800         xr
+m_data           0x1fffe000         0x00002000         xrw
+m_data2          0x20000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Project_Settings/Startup_Code/kinetis_sysinit.o
+LOAD ./Project_Settings/Startup_Code/__arm_start.o
+LOAD ./Project_Settings/Startup_Code/__arm_end.o
+LOAD ./Sources/GFX/GFX_FONT_5x7.o
+LOAD ./Sources/GFX/GFX_FONT_3x5.o
+LOAD ./Sources/GFX/GFX_FONT_10x14.o
+LOAD ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+LOAD ./Sources/GFX/GFX.o
+LOAD ./Sources/cpu/arm_cm4.o
+LOAD ./Sources/drivers/adc16/adc16.o
+LOAD ./Sources/drivers/frdm-k20-def.o
+LOAD ./Sources/drivers/mcg/mcg.o
+LOAD ./Sources/main.o
+                0x000036a8                __pformatter = __pformatter_
+                [0x00003aa0]                __sformatter = __sformatter
+LOAD C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a
+START GROUP
+LOAD C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a
+LOAD C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libm.a
+LOAD c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a
+LOAD C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a
+LOAD C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libuart.a
+END GROUP
+                0x20000000                _estack = 0x20000000
+                0x20000000                __SP_INIT = _estack
+                0x00000400                __heap_size = 0x400
+                0x00000400                __stack_size = 0x400
+
+.interrupts     0x00000000       0xf8
+                0x00000000                __vector_table = .
+                0x00000000                . = ALIGN (0x4)
+ *(.vectortable)
+ .vectortable   0x00000000       0xf8 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x00000000                InterruptVector
+                0x000000f8                . = ALIGN (0x4)
+
+.cfmprotect     0x00000400        0x0
+                0x00000400                . = ALIGN (0x4)
+ *(.cfmconfig)
+                0x00000400                . = ALIGN (0x4)
+
+.text           0x00000800     0xf7e4
+                0x00000800                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000800      0x21c c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+                0x00000800                __aeabi_frsub
+                0x00000808                __subsf3
+                0x00000808                __aeabi_fsub
+                0x0000080c                __aeabi_fadd
+                0x0000080c                __addsf3
+                0x0000096c                __aeabi_ui2f
+                0x0000096c                __floatunsisf
+                0x00000974                __aeabi_i2f
+                0x00000974                __floatsisf
+                0x00000990                __aeabi_ul2f
+                0x00000990                __floatundisf
+                0x000009a0                __aeabi_l2f
+                0x000009a0                __floatdisf
+ .text          0x00000a1c      0x2a0 c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_muldivsf3.o)
+                0x00000a1c                __mulsf3
+                0x00000a1c                __aeabi_fmul
+                0x00000b84                __aeabi_fdiv
+                0x00000b84                __divsf3
+ .text          0x00000cbc       0x4c c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixsfsi.o)
+                0x00000cbc                __aeabi_f2iz
+                0x00000cbc                __fixsfsi
+ *(.text*)
+ .text.Default_Handler
+                0x00000d08        0x4 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x00000d08                HardFault_Handler
+                0x00000d08                PendSV_Handler
+                0x00000d08                NMI_Handler
+                0x00000d08                UsageFault_Handler
+                0x00000d08                Default_Handler
+                0x00000d08                MemManage_Handler
+                0x00000d08                SVC_Handler
+                0x00000d08                BusFault_Handler
+                0x00000d08                DebugMonitor_Handler
+ .text.__init_hardware
+                0x00000d0c       0x2c ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                0x00000d0c                __init_hardware
+ .text.__thumb_startup
+                0x00000d38       0x40 ./Project_Settings/Startup_Code/__arm_start.o
+                0x00000d38                __thumb_startup
+ .text._ExitProcess
+                0x00000d78        0x4 ./Project_Settings/Startup_Code/__arm_end.o
+                0x00000d78                _ExitProcess
+ .text.SetSSD1325_DataBusAsInputs
+                0x00000d7c       0x5c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00000d7c                SetSSD1325_DataBusAsInputs
+ .text.SetSSD1325_DataBusAsOutputs
+                0x00000dd8       0x5c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00000dd8                SetSSD1325_DataBusAsOutputs
+ .text.InitSSD1325_Interface
+                0x00000e34       0x9c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00000e34                InitSSD1325_Interface
+ .text.PutSSD1325_DataBits
+                0x00000ed0      0x134 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00000ed0                PutSSD1325_DataBits
+ .text.SSD1325_Write
+                0x00001004       0x20 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001004                SSD1325_Write
+ .text.SSD1325_WriteCommandBytes
+                0x00001024       0x70 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001024                SSD1325_WriteCommandBytes
+ .text.SSD1325_DisplayModeNormal
+                0x00001094       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001094                SSD1325_DisplayModeNormal
+ .text.SSD1325_DisplayOn
+                0x000010ac       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000010ac                SSD1325_DisplayOn
+ .text.SSD1325_DisplayOff
+                0x000010c4       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000010c4                SSD1325_DisplayOff
+ .text.SSD1325_SetColumnStartEnd
+                0x000010dc       0x20 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000010dc                SSD1325_SetColumnStartEnd
+ .text.SSD1325_SetRowStartEnd
+                0x000010fc       0x20 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000010fc                SSD1325_SetRowStartEnd
+ .text.SSD1325_SetMuxRatio
+                0x0000111c       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000111c                SSD1325_SetMuxRatio
+ .text.SSD1325_SetDisplayStartLine
+                0x00001138       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001138                SSD1325_SetDisplayStartLine
+ .text.SSD1325_SetDisplayOffset
+                0x00001154       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001154                SSD1325_SetDisplayOffset
+ .text.SSD1325_SetRemap
+                0x00001170       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001170                SSD1325_SetRemap
+ .text.SSD1325_SetCurrentRange
+                0x0000118c       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000118c                SSD1325_SetCurrentRange
+ .text.SSD1325_SetFrameFrequency
+                0x000011a4       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000011a4                SSD1325_SetFrameFrequency
+ .text.SSD1325_MasterConfig
+                0x000011c0       0x20 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000011c0                SSD1325_MasterConfig
+ .text.SSD1325_SetPhaseLength
+                0x000011e0       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000011e0                SSD1325_SetPhaseLength
+ .text.SSD1325_SetPrechargeVoltage
+                0x000011fc       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000011fc                SSD1325_SetPrechargeVoltage
+ .text.SSD1325_SetPrechargeCompensation
+                0x00001218       0x38 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001218                SSD1325_SetPrechargeCompensation
+ .text.SSD1325_SetVCOMH
+                0x00001250       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x00001250                SSD1325_SetVCOMH
+ .text.SSD1325_SetVSL
+                0x0000126c       0x20 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000126c                SSD1325_SetVSL
+ .text.SSD1325_SetDisplayClock
+                0x0000128c       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000128c                SSD1325_SetDisplayClock
+ .text.SSD1325_Set_GrayScaleTable
+                0x000012a8       0x48 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000012a8                SSD1325_Set_GrayScaleTable
+ .text.SSD1325_SetContrastCurrent
+                0x000012f0       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x000012f0                SSD1325_SetContrastCurrent
+ .text.GFX_InitPhysicalScreen
+                0x0000130c       0x90 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000130c                GFX_InitPhysicalScreen
+ .text.GFX_DumpImagePlaneToPhysicalScreen
+                0x0000139c      0x130 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000139c                GFX_DumpImagePlaneToPhysicalScreen
+ .text.GFX_Init
+                0x000014cc       0x38 ./Sources/GFX/GFX.o
+                0x000014cc                GFX_Init
+ .text.GFX_DrawVline
+                0x00001504      0x148 ./Sources/GFX/GFX.o
+                0x00001504                GFX_DrawVline
+ .text.GFX_DrawLine
+                0x0000164c      0x6e4 ./Sources/GFX/GFX.o
+                0x0000164c                GFX_DrawLine
+ .text.GFX_ImagePlane_Clear
+                0x00001d30       0x48 ./Sources/GFX/GFX.o
+                0x00001d30                GFX_ImagePlane_Clear
+ .text.ADC_Cal  0x00001d78       0x98 ./Sources/drivers/adc16/adc16.o
+                0x00001d78                ADC_Cal
+ .text.InitADC_12Bit
+                0x00001e10       0xac ./Sources/drivers/adc16/adc16.o
+                0x00001e10                InitADC_12Bit
+ .text.StartADC0_SingleEnded
+                0x00001ebc       0x28 ./Sources/drivers/adc16/adc16.o
+                0x00001ebc                StartADC0_SingleEnded
+ .text.pll_init
+                0x00001ee4      0x2f4 ./Sources/drivers/mcg/mcg.o
+                0x00001ee4                pll_init
+ .text.SysTick_Handler
+                0x000021d8       0x54 ./Sources/main.o
+                0x000021d8                SysTick_Handler
+ .text.startup.main
+                0x0000222c      0x2ec ./Sources/main.o
+                0x0000222c                main
+ .text.arm_cmplx_mag_q15
+                0x00002518      0x1e0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+                0x00002518                arm_cmplx_mag_q15
+ .text.arm_sqrt_q15
+                0x000026f8       0xf4 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+                0x000026f8                arm_sqrt_q15
+ .text.arm_split_rfft_q15
+                0x000027ec      0x1ac C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                0x000027ec                arm_split_rfft_q15
+ .text.arm_rfft_q15
+                0x00002998      0x1a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                0x00002998                arm_rfft_q15
+ .text.arm_rfft_init_q15
+                0x00002b40       0x88 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                0x00002b40                arm_rfft_init_q15
+ .text.arm_radix4_butterfly_q15
+                0x00002bc8      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                0x00002bc8                arm_radix4_butterfly_q15
+ .text.arm_radix4_butterfly_inverse_q15
+                0x00002f70      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                0x00002f70                arm_radix4_butterfly_inverse_q15
+ .text.arm_cfft_radix4_init_q15
+                0x00003318       0x94 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+                0x00003318                arm_cfft_radix4_init_q15
+ .text.arm_bitreversal_q15
+                0x000033ac      0x120 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+                0x000033ac                arm_bitreversal_q15
+ .text.exit     0x000034cc       0x38 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x000034cc                exit
+ .text.memset   0x00003504        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                0x00003504                memset
+ .text.long2str.isra.0
+                0x00003510      0x196 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ *fill*         0x000036a6        0x2 00
+ .text.__pformatter_
+                0x000036a8      0x3f8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x000036a8                __pformatter_
+ .text.__sformatter
+                0x00003aa0      0x6f4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                0x00003aa0                __sformatter
+ .text.isalpha  0x00004194       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x00004194                isalpha
+ .text.isspace  0x000041b0       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x000041b0                isspace
+ .text.toupper  0x000041cc        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x000041cc                toupper
+ .text.__strtoul
+                0x000041d8      0x214 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                0x000041d8                __strtoul
+ .text.__fill_mem
+                0x000043ec       0x76 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                0x000043ec                __fill_mem
+ .text.memchr   0x00004462       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                0x00004462                memchr
+ .text.strchr   0x0000447a       0x1a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                0x0000447a                strchr
+ .text.strlen   0x00004494       0x10 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                0x00004494                strlen
+ .text.__init_cpp
+                0x000044a4       0x4c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x000044a4                __init_cpp
+ .text.__fini_cpp
+                0x000044f0       0x34 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x000044f0                __fini_cpp
+ .text.__copy_rom_section
+                0x00004524       0x44 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x00004524                __copy_rom_section
+ .text.__copy_rom_sections_to_ram
+                0x00004568       0x30 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x00004568                __copy_rom_sections_to_ram
+ .text.__destroy_global_chain
+                0x00004598       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x00004598                __destroy_global_chain
+ .text.__init_registers
+                0x000045b0       0x24 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x000045b0                __init_registers
+ .text.__init_user
+                0x000045d4        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x000045d4                __init_user
+ *(.rodata)
+ *(.rodata*)
+ .rodata.Hanning
+                0x000045d8      0x100 ./Sources/main.o
+                0x000045d8                Hanning
+ .rodata.realCoefAQ15
+                0x000046d8     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .rodata.realCoefBQ15
+                0x000086d8     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .rodata.twiddleCoefQ15
+                0x0000c6d8     0x3000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                0x0000c6d8                twiddleCoefQ15
+ .rodata.armBitRevTable
+                0x0000f6d8      0x800 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                0x0000f6d8                armBitRevTable
+ .rodata.str1.1
+                0x0000fed8        0x1 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.CSWTCH.20
+                0x0000fed9        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.CSWTCH.21
+                0x0000fede        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .rodata.__aeabi_ctype_table_C
+                0x0000fee3      0x101 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x0000fee3                __aeabi_ctype_table_C
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000ffe4                . = ALIGN (0x4)
+                0x0000ffe4                _etext = .
+
+.vfp11_veneer   0x0000ffe4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000ffe4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000ffe4        0x0
+ .iplt          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.rel.dyn        0x0000ffe4        0x0
+ .rel.iplt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000ffe4        0x0
+                0x0000ffe4                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000ffe4                __exidx_end = .
+
+.ctors          0x0000ffe4        0x0
+                0x0000ffe4                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000ffe4                __CTOR_END__ = .
+
+.dtors          0x0000ffe4        0x0
+                0x0000ffe4                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000ffe4                __DTOR_END__ = .
+
+.preinit_array  0x0000ffe4        0x0
+                0x0000ffe4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0000ffe4                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000ffe4        0x0
+                0x0000ffe4                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x0000ffe4                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000ffe4        0x0
+                0x0000ffe4                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x0000ffe4                PROVIDE (__fini_array_end, .)
+                0x0000ffe4                ___ROM_AT = .
+
+.data           0x1fffe000        0x0 load address 0x0000ffe4
+                0x1fffe000                . = ALIGN (0x4)
+                0x1fffe000                _sdata = .
+ *(.data)
+ *(.data*)
+                0x1fffe000                . = ALIGN (0x4)
+                0x1fffe000                _edata = .
+                0x00000000                ___data_size = (_edata - _sdata)
+                0x0000ffe4                ___m_data2_ROMStart = (___ROM_AT + SIZEOF (.data))
+
+.igot.plt       0x1fffe000        0x0
+ .igot.plt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+
+.user_data2     0x20000000        0x0 load address 0x0000ffe4
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                ___m_data2_RAMStart = .
+ *(.data2)
+                0x20000000                ___m_data2_RAMEnd = .
+                0x20000000                . = ALIGN (0x4)
+                0x00000000                ___m_data2_ROMSize = (___m_data2_RAMEnd - ___m_data2_RAMStart)
+                0x20000000                . = ALIGN (0x4)
+
+.bss            0x1fffe000      0xac0
+                0x1fffe000                __START_BSS = .
+                0x1fffe000                PROVIDE (__bss_start__, __START_BSS)
+ *(.bss)
+ *(.bss*)
+ .bss.argv      0x1fffe000        0x4 ./Project_Settings/Startup_Code/__arm_start.o
+ .bss.BufferPtr
+                0x1fffe004        0x1 ./Sources/main.o
+                0x1fffe004                BufferPtr
+ .bss.CurrentSample
+                0x1fffe005        0x1 ./Sources/main.o
+                0x1fffe005                CurrentSample
+ .bss.CaptureActive
+                0x1fffe006        0x1 ./Sources/main.o
+                0x1fffe006                CaptureActive
+ *fill*         0x1fffe007        0x1 00
+ .bss.__stdio_exit
+                0x1fffe008        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x1fffe008                __stdio_exit
+ .bss.__console_exit
+                0x1fffe00c        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x1fffe00c                __console_exit
+ .bss.__S_romp  0x1fffe010        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss.__global_destructor_chain
+                0x1fffe01c        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x1fffe01c                __global_destructor_chain
+ *(COMMON)
+ COMMON         0x1fffe020      0x488 ./Sources/GFX/GFX.o
+                0x1fffe020                GFX_BackBuffer
+                0x1fffe028                BackBufferStorageSpace
+                0x1fffe468                GFX_StringBuf
+ COMMON         0x1fffe4a8       0x10 ./Sources/drivers/adc16/adc16.o
+                0x1fffe4a8                Master_Adc_Config
+ COMMON         0x1fffe4b8      0x608 ./Sources/main.o
+                0x1fffe4b8                MicFFT_Mag
+                0x1fffe5b8                Backbuffer
+                0x1fffe5bc                MicBuffer2
+                0x1fffe6bc                Activebuffer
+                0x1fffe6c0                MicFFT
+                0x1fffe8c0                Mic
+                0x1fffe9c0                MicBuffer1
+                0x1fffeac0                . = ALIGN (0x4)
+                0x1fffeac0                __END_BSS = .
+                0x1fffeac0                PROVIDE (__bss_end__, __END_BSS)
+
+._user_heap_stack
+                0x1fffeac0      0x800
+                0x1fffeac0                . = ALIGN (0x4)
+                0x1fffeac0                PROVIDE (end, .)
+                0x1fffeac0                PROVIDE (_end, .)
+                0x1fffeac0                __heap_addr = .
+                0x1fffeec0                . = (. + __heap_size)
+ *fill*         0x1fffeac0      0x400 00
+                0x1ffff2c0                . = (. + __stack_size)
+ *fill*         0x1fffeec0      0x400 00
+                0x1ffff2c0                . = ALIGN (0x4)
+                0x0000ffe4                _romp_at = ((___ROM_AT + SIZEOF (.data)) + SIZEOF (.user_data2))
+
+.romp           0x20000000       0x24 load address 0x0000ffe4
+                0x0000ffe4                __S_romp = _romp_at
+                0x20000000        0x4 LONG 0xffe4 ___ROM_AT
+                0x20000004        0x4 LONG 0x1fffe000 _sdata
+                0x20000008        0x4 LONG 0x0 ___data_size
+                0x2000000c        0x4 LONG 0xffe4 ___m_data2_ROMStart
+                0x20000010        0x4 LONG 0x20000000 ___m_data2_RAMStart
+                0x20000014        0x4 LONG 0x0 ___m_data2_ROMSize
+                0x20000018        0x4 LONG 0x0
+                0x2000001c        0x4 LONG 0x0
+                0x20000020        0x4 LONG 0x0
+
+.ARM.attributes
+                0x00000000       0x33
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .ARM.attributes
+                0x00000033       0x33 ./Project_Settings/Startup_Code/__arm_start.o
+ .ARM.attributes
+                0x00000066       0x33 ./Project_Settings/Startup_Code/__arm_end.o
+ .ARM.attributes
+                0x00000099       0x33 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .ARM.attributes
+                0x000000cc       0x33 ./Sources/GFX/GFX.o
+ .ARM.attributes
+                0x000000ff       0x33 ./Sources/drivers/adc16/adc16.o
+ .ARM.attributes
+                0x00000132       0x33 ./Sources/drivers/mcg/mcg.o
+ .ARM.attributes
+                0x00000165       0x33 ./Sources/main.o
+ .ARM.attributes
+                0x00000198       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .ARM.attributes
+                0x000001cb       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .ARM.attributes
+                0x000001fe       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .ARM.attributes
+                0x00000231       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .ARM.attributes
+                0x00000264       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .ARM.attributes
+                0x00000297       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .ARM.attributes
+                0x000002ca       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .ARM.attributes
+                0x000002fd       0x33 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .ARM.attributes
+                0x00000330       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .ARM.attributes
+                0x00000363       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .ARM.attributes
+                0x00000396       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .ARM.attributes
+                0x000003c9       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .ARM.attributes
+                0x000003fc       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .ARM.attributes
+                0x0000042f       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .ARM.attributes
+                0x00000462       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000495       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .ARM.attributes
+                0x000004c8       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .ARM.attributes
+                0x000004fb       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .ARM.attributes
+                0x0000052e       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000054c       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000056a       0x1e c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000588       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x000005bb       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .ARM.attributes
+                0x000005ee       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+OUTPUT(MonkeyListen.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xb837
+ .debug_info    0x00000000      0x355 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_info    0x00000355      0x148 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_info    0x0000049d       0x52 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_info    0x000004ef      0xb1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_info    0x0000100b     0x399c ./Sources/GFX/GFX.o
+ .debug_info    0x000049a7      0x885 ./Sources/drivers/adc16/adc16.o
+ .debug_info    0x0000522c      0xdb5 ./Sources/drivers/mcg/mcg.o
+ .debug_info    0x00005fe1      0xa65 ./Sources/main.o
+ .debug_info    0x00006a46      0x2d6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_info    0x00006d1c      0x234 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_info    0x00006f50      0x9b2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_info    0x00007902      0x2e2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_info    0x00007be4     0x1733 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_info    0x00009317      0x235 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_info    0x0000954c      0x2c8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_info    0x00009814      0x533 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_info    0x00009d47       0xe8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_info    0x00009e2f       0xec C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_info    0x00009f1b      0x50e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_info    0x0000a429      0x565 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_info    0x0000a98e      0x306 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_info    0x0000ac94      0x1d6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_info    0x0000ae6a      0x135 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_info    0x0000af9f      0x120 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_info    0x0000b0bf      0x108 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_info    0x0000b1c7       0xeb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_info    0x0000b2b2      0x136 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x0000b3e8      0x19a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_info    0x0000b582      0x2b5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_abbrev   0x00000000     0x2281
+ .debug_abbrev  0x00000000       0xf6 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_abbrev  0x000000f6       0xc2 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_abbrev  0x000001b8       0x4c ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_abbrev  0x00000204      0x2c3 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_abbrev  0x000004c7      0x390 ./Sources/GFX/GFX.o
+ .debug_abbrev  0x00000857      0x1f2 ./Sources/drivers/adc16/adc16.o
+ .debug_abbrev  0x00000a49      0x1e9 ./Sources/drivers/mcg/mcg.o
+ .debug_abbrev  0x00000c32      0x216 ./Sources/main.o
+ .debug_abbrev  0x00000e48       0xfa C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_abbrev  0x00000f42      0x11d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_abbrev  0x0000105f      0x183 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_abbrev  0x000011e2      0x109 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_abbrev  0x000012eb      0x193 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_abbrev  0x0000147e       0xed C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_abbrev  0x0000156b       0xc2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_abbrev  0x0000162d       0x86 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_abbrev  0x000016b3       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_abbrev  0x0000172d       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_abbrev  0x0000178f      0x200 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_abbrev  0x0000198f      0x1f0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_abbrev  0x00001b7f       0x85 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_abbrev  0x00001c04       0xc2 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_abbrev  0x00001cc6       0x87 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00001d4d       0x95 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_abbrev  0x00001de2       0x89 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_abbrev  0x00001e6b       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_abbrev  0x00001ee5       0x99 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001f7e      0x137 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x000020b5      0x1cc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_aranges  0x00000000      0x7f0
+ .debug_aranges
+                0x00000000       0x28 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_aranges
+                0x00000028       0x28 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_aranges
+                0x00000050       0x20 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_aranges
+                0x00000070      0x140 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_aranges
+                0x000001b0      0x140 ./Sources/GFX/GFX.o
+ .debug_aranges
+                0x000002f0       0x50 ./Sources/drivers/adc16/adc16.o
+ .debug_aranges
+                0x00000340       0xf8 ./Sources/drivers/mcg/mcg.o
+ .debug_aranges
+                0x00000438       0x30 ./Sources/main.o
+ .debug_aranges
+                0x00000468       0x20 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_aranges
+                0x00000488       0x20 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_aranges
+                0x000004a8       0x30 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_aranges
+                0x000004d8       0x20 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_aranges
+                0x000004f8       0x30 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_aranges
+                0x00000528       0x20 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_aranges
+                0x00000548       0x30 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_aranges
+                0x00000578       0x18 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_aranges
+                0x00000590       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_aranges
+                0x000005b0       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_aranges
+                0x000005d0       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_aranges
+                0x000005f8       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_aranges
+                0x00000618       0x88 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_aranges
+                0x000006a0       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_aranges
+                0x000006c0       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_aranges
+                0x000006e0       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_aranges
+                0x00000700       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_aranges
+                0x00000720       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_aranges
+                0x00000740       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x00000768       0x30 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_aranges
+                0x00000798       0x58 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_macinfo  0x00000000   0x1757d4
+ .debug_macinfo
+                0x00000000    0x3cc57 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_macinfo
+                0x0003cc57     0x3f4e ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_macinfo
+                0x00040ba5     0x3537 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_macinfo
+                0x000440dc    0x3d524 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_macinfo
+                0x00081600     0x4459 ./Sources/GFX/GFX.o
+ .debug_macinfo
+                0x00085a59    0x3d76a ./Sources/drivers/adc16/adc16.o
+ .debug_macinfo
+                0x000c31c3    0x3ccd5 ./Sources/drivers/mcg/mcg.o
+ .debug_macinfo
+                0x000ffe98    0x4035c ./Sources/main.o
+ .debug_macinfo
+                0x001401f4     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_macinfo
+                0x00146b96     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_macinfo
+                0x0014d76c     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_macinfo
+                0x0015410e     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_macinfo
+                0x0015aab0     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_macinfo
+                0x00161452     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_macinfo
+                0x00168028     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_macinfo
+                0x0016ebfe     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+
+.debug_line     0x00000000     0x66ad
+ .debug_line    0x00000000      0x230 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_line    0x00000230      0x297 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_line    0x000004c7      0x265 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_line    0x0000072c      0x711 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_line    0x00000e3d     0x12fa ./Sources/GFX/GFX.o
+ .debug_line    0x00002137      0x358 ./Sources/drivers/adc16/adc16.o
+ .debug_line    0x0000248f      0x99a ./Sources/drivers/mcg/mcg.o
+ .debug_line    0x00002e29      0x529 ./Sources/main.o
+ .debug_line    0x00003352      0x3f8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_line    0x0000374a      0x383 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_line    0x00003acd      0x617 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_line    0x000040e4      0x36f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_line    0x00004453      0x86f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_line    0x00004cc2      0x394 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_line    0x00005056      0x527 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_line    0x0000557d      0x329 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_line    0x000058a6       0x94 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_line    0x0000593a       0x8f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_line    0x000059c9      0x2b4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_line    0x00005c7d      0x2df C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_line    0x00005f5c      0x1a9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_line    0x00006105      0x11b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_line    0x00006220       0xcd C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_line    0x000062ed       0x9f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_line    0x0000638c       0x7d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_line    0x00006409       0x83 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_line    0x0000648c       0x67 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x000064f3       0xa9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x0000659c      0x111 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_str      0x00000000     0x2547
+ .debug_str     0x00000000      0x26f ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                0x296 (size before relaxing)
+ .debug_str     0x0000026f       0x85 ./Project_Settings/Startup_Code/__arm_start.o
+                                0x1a8 (size before relaxing)
+ .debug_str     0x000002f4       0x3a ./Project_Settings/Startup_Code/__arm_end.o
+                                 0xdf (size before relaxing)
+ .debug_str     0x0000032e      0x466 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                                0x5da (size before relaxing)
+ .debug_str     0x00000794      0x6f1 ./Sources/GFX/GFX.o
+                                0x8d9 (size before relaxing)
+ .debug_str     0x00000e85      0x251 ./Sources/drivers/adc16/adc16.o
+                                0x3ac (size before relaxing)
+ .debug_str     0x000010d6      0x230 ./Sources/drivers/mcg/mcg.o
+                                0x441 (size before relaxing)
+ .debug_str     0x00001306      0x1d4 ./Sources/main.o
+                                0x55e (size before relaxing)
+ .debug_str     0x000014da       0xd7 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+                                0x1f9 (size before relaxing)
+ .debug_str     0x000015b1      0x14d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+                                0x2c1 (size before relaxing)
+ .debug_str     0x000016fe      0x102 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                                0x372 (size before relaxing)
+ .debug_str     0x00001800       0x6d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                                0x365 (size before relaxing)
+ .debug_str     0x0000186d      0x107 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                                0x31b (size before relaxing)
+ .debug_str     0x00001974       0x7f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+                                0x2ee (size before relaxing)
+ .debug_str     0x000019f3       0x9a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+                                0x249 (size before relaxing)
+ .debug_str     0x00001a8d      0x274 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                                0x401 (size before relaxing)
+ .debug_str     0x00001d01       0x48 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                                0x157 (size before relaxing)
+ .debug_str     0x00001d49       0x23 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x00001d6c      0x22c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                                0x3b3 (size before relaxing)
+ .debug_str     0x00001f98      0x184 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                                0x3f9 (size before relaxing)
+ .debug_str     0x0000211c       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x000021b9       0x5b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                                0x1fb (size before relaxing)
+ .debug_str     0x00002214       0x25 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                                0x152 (size before relaxing)
+ .debug_str     0x00002239       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                                0x148 (size before relaxing)
+ .debug_str     0x00002255       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                                0x137 (size before relaxing)
+ .debug_str     0x00002271       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x0000228d      0x126 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                                0x181 (size before relaxing)
+ .debug_str     0x000023b3       0x9c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                                0x13c (size before relaxing)
+ .debug_str     0x0000244f       0xf8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                                0x1b5 (size before relaxing)
+
+.comment        0x00000000       0x79
+ .comment       0x00000000       0x79 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+                                 0x7a (size before relaxing)
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_start.o
+ .comment       0x00000000       0x7a ./Project_Settings/Startup_Code/__arm_end.o
+ .comment       0x00000000       0x7a ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .comment       0x00000000       0x7a ./Sources/GFX/GFX.o
+ .comment       0x00000000       0x7a ./Sources/drivers/adc16/adc16.o
+ .comment       0x00000000       0x7a ./Sources/drivers/mcg/mcg.o
+ .comment       0x00000000       0x7a ./Sources/main.o
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .comment       0x00000000       0x7a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .comment       0x00000000       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_frame    0x00000000     0x1238
+ .debug_frame   0x00000000       0x30 ./Project_Settings/Startup_Code/kinetis_sysinit.o
+ .debug_frame   0x00000030       0x30 ./Project_Settings/Startup_Code/__arm_start.o
+ .debug_frame   0x00000060       0x20 ./Project_Settings/Startup_Code/__arm_end.o
+ .debug_frame   0x00000080      0x378 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_frame   0x000003f8      0x498 ./Sources/GFX/GFX.o
+ .debug_frame   0x00000890       0xac ./Sources/drivers/adc16/adc16.o
+ .debug_frame   0x0000093c      0x284 ./Sources/drivers/mcg/mcg.o
+ .debug_frame   0x00000bc0       0x60 ./Sources/main.o
+ .debug_frame   0x00000c20       0x38 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_frame   0x00000c58       0x30 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_frame   0x00000c88       0x84 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_frame   0x00000d0c       0x2c C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_frame   0x00000d38       0x7c C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_frame   0x00000db4       0x20 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_frame   0x00000dd4       0x88 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_frame   0x00000e5c       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_frame   0x00000e84       0x28 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_frame   0x00000eac       0x64 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_frame   0x00000f10       0x3c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_frame   0x00000f4c       0xf0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_frame   0x0000103c       0x3c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_frame   0x00001078       0x2c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_frame   0x000010a4       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_frame   0x000010c4       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_frame   0x000010e4       0x20 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_frame   0x00001104       0x40 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00001144       0x48 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_frame   0x0000118c       0xac C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+
+.debug_loc      0x00000000     0xb54e
+ .debug_loc     0x00000000      0x8d0 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .debug_loc     0x000008d0     0x4b7e ./Sources/GFX/GFX.o
+ .debug_loc     0x0000544e      0x1b7 ./Sources/drivers/adc16/adc16.o
+ .debug_loc     0x00005605     0x12dd ./Sources/drivers/mcg/mcg.o
+ .debug_loc     0x000068e2       0xeb ./Sources/main.o
+ .debug_loc     0x000069cd      0x23a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_loc     0x00006c07      0x152 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_loc     0x00006d59      0x9db C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_loc     0x00007734       0xc1 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_loc     0x000077f5     0x19e5 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_loc     0x000091da      0x1ab C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_loc     0x00009385      0x382 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_loc     0x00009707       0x3e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_loc     0x00009745       0x64 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_loc     0x000097a9      0xbdc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_loc     0x0000a385      0x8b6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_loc     0x0000ac3b      0x18e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_loc     0x0000adc9      0x2bb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_loc     0x0000b084      0x12c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_loc     0x0000b1b0       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_loc     0x0000b212       0x7c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_loc     0x0000b28e       0x26 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_loc     0x0000b2b4       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x0000b351       0xb9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_loc     0x0000b40a      0x144 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
