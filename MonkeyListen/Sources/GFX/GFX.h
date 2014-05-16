@@ -4,7 +4,7 @@
 #include "stdint.h"
 #include "GFX_DataTypes.h"
 #include "GFX_Driver_FRDM-OLED_NHD-2.712864.h"
-#include "GFX_FONT_10x14.h"
+
 #include "GFX_FONT_5x7.h"
 #ifndef	GFX_DRIVER_PRESENT
 

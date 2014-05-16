@@ -20,7 +20,7 @@ Project_Settings/Startup_Code/__arm_start.o: \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdint.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdint \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h \
- C:/Users/ehughes/Dropbox/FRDM/FRDM-OLED/SRC/MonkeyListen/Project_Settings/Startup_Code/runtime_configuration.h
+ C:/Users/ehughes/Documents/GitHub/MonkeyListen/MonkeyListen/Project_Settings/Startup_Code/runtime_configuration.h
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -62,4 +62,4 @@ C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdint:
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/limits_api.h:
 
-C:/Users/ehughes/Dropbox/FRDM/FRDM-OLED/SRC/MonkeyListen/Project_Settings/Startup_Code/runtime_configuration.h:
+C:/Users/ehughes/Documents/GitHub/MonkeyListen/MonkeyListen/Project_Settings/Startup_Code/runtime_configuration.h:

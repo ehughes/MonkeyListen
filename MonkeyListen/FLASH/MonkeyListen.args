@@ -3,7 +3,6 @@
 "./Project_Settings/Startup_Code/__arm_end.o"
 "./Sources/GFX/GFX_FONT_5x7.o"
 "./Sources/GFX/GFX_FONT_3x5.o"
-"./Sources/GFX/GFX_FONT_10x14.o"
 "./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o"
 "./Sources/GFX/GFX.o"
 "./Sources/cpu/arm_cm4.o"

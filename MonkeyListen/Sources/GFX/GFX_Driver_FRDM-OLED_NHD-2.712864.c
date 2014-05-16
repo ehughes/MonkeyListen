@@ -1,6 +1,6 @@
 #include "GFX.h"
 #include "Derivative.h"
-
+#include "stdlib.h"
 
 
 
@@ -451,6 +451,55 @@ void  SSD1325_SetContrastCurrent(unsigned char d)
     SSD1325_WriteCommandBytes(&Cmd[0], 2);
 }
 
+
+void SSD1325_ScrollRight()
+{
+    uint8_t Cmd[7];
+    Cmd[0] = 0x25;
+    
+    Cmd[1] =0;
+    Cmd[2] = 0;
+    Cmd[3] = 63;
+    Cmd[4] = 63;
+    Cmd[5] = 1;
+    Cmd[6] = 0;
+            
+    SSD1325_WriteCommandBytes(&Cmd[0], 7);
+}
+
+void SSD1325_ScrollLeft()
+{
+    uint8_t Cmd[7];
+    Cmd[0] = 0x25;
+    
+    Cmd[1] =1;
+    Cmd[2] = 0;
+    Cmd[3] = 63;
+    Cmd[4] = 63;
+    
+    Cmd[5] = 0;
+    Cmd[6] = 0;
+            
+    SSD1325_WriteCommandBytes(&Cmd[0], 7);
+}
+
+//Assumes we are column addressing mode.
+void SSD_WriteColumn(uint8_t * Data)
+{
+    uint8_t y;
+    
+    SSD1325_SET_DC;
+    SSD1325_CLEAR_RW;
+    SSD1325_CLEAR_CS;
+
+ for(y=0; y<64; y++)
+    {
+         SSD1325_Write(Data[y]);
+    }
+
+    SSD1325_SET_CS;
+    
+}
 
 
 void Test()

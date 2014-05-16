@@ -13,7 +13,7 @@ Sources/GFX/GFX.o: ../Sources/GFX/GFX.c \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h \
  ../Sources/GFX/GFX_DataTypes.h \
  ../Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.h \
- ../Sources/GFX/GFX_FONT_10x14.h ../Sources/GFX/GFX_FONT_5x7.h \
+ ../Sources/GFX/GFX_FONT_5x7.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/stdlib.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdlib \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/div_t.h \
@@ -52,8 +52,6 @@ C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/ewl_lib_ext1.h
 ../Sources/GFX/GFX_DataTypes.h:
 
 ../Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.h:
-
-../Sources/GFX/GFX_FONT_10x14.h:
 
 ../Sources/GFX/GFX_FONT_5x7.h:
 

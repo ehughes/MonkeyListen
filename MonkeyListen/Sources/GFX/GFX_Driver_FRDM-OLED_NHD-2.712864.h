@@ -25,5 +25,10 @@ void GFX_Init();
 void GFX_PowerUpScreen();
 void GFX_PowerDownScreen();
 
+void SSD1325_ScrollLeft();
+void SSD_WriteColumn(uint8_t * Data);
+void SSD1325_ScrollRight();
+void SSD1325_SetColumnStartEnd(uint8_t Start, uint8_t End);
+void SSD1325_SetRemap(uint8_t Setting);
 
 #endif
