@@ -156,7 +156,7 @@ void disable_irq
     /*~~~~*/
     /*~~~~*/
     /*~~~~*/
-    int div;
+    int div = 0;
 
     /*~~~~*/
 
@@ -222,7 +222,7 @@ void set_irq_priority
     /*~~~~~~~~~~~~~~*/
     /*~~~~~~~~~~~~~~*/
     /*irq priority pointer*/
-    uint8   *prio_reg;
+    uint8   *prio_reg = 0;
 
     /*~~~~~~~~~~~~~~*/
 

@@ -1,19 +1,44 @@
-#include "derivative.h" /* include peripheral declarations */
+#include "derivative.h" 
 #include "drivers/mcg/mcg.h"
 #include "GFX/GFX.h"
 #include "cpu/arm_cm4.h"
 #include "drivers/adc16/adc16.h"
 #include "arm_math.h"
 
+/***
+ *       _____             __ _       
+ *      / ____|           / _(_)      
+ *     | |     ___  _ __ | |_ _  __ _ 
+ *     | |    / _ \| '_ \|  _| |/ _` |
+ *     | |___| (_) | | | | | | | (_| |
+ *      \_____\___/|_| |_|_| |_|\__, |
+ *                               __/ |
+ *                              |___/ 
+ */
 
 #define  MODE_SPECTROGRAM				0
 #define  MODE_TIME_DOMAIN_PLUS_FFT		1
 
+//Select the MonkeyListen Mode here!
+
 //#define MONKEY_LISTEN_MODE	MODE_TIME_DOMAIN_PLUS_FFT
 #define MONKEY_LISTEN_MODE	MODE_SPECTROGRAM
 
+
+//Pick A Sample Rate.   8KHz works well for general viewing as most "voice" artifacts are quite low. (our FFT is 128 Points)
 #define SAMPLE_RATE		8000
 
+
+/***
+ *                        _ _         _____ _                    _____                    ____         __  __          
+ *         /\            | (_)       |  __ (_)                  |  __ \                  |  _ \       / _|/ _|         
+ *        /  \  _   _  __| |_  ___   | |__) | _ __   __ _ ______| |__) |__  _ __   __ _  | |_) |_   _| |_| |_ ___ _ __ 
+ *       / /\ \| | | |/ _` | |/ _ \  |  ___/ | '_ \ / _` |______|  ___/ _ \| '_ \ / _` | |  _ <| | | |  _|  _/ _ \ '__|
+ *      / ____ \ |_| | (_| | | (_) | | |   | | | | | (_| |      | |  | (_) | | | | (_| | | |_) | |_| | | | ||  __/ |   
+ *     /_/    \_\__,_|\__,_|_|\___/  |_|   |_|_| |_|\__, |      |_|   \___/|_| |_|\__, | |____/ \__,_|_| |_| \___|_|   
+ *                                                   __/ |                         __/ |                               
+ *                                                  |___/                         |___/                                
+ */
 volatile uint8_t CaptureActive = 0;
 volatile uint8_t CurrentSample = 0;
 
@@ -24,11 +49,34 @@ volatile int16_t *Backbuffer;
 volatile int16_t *Activebuffer;
 
 volatile uint8_t BufferPtr = 0;
+
+
+/***
+ *      _____   _____ _____    ____         __  __              
+ *     |  __ \ / ____|  __ \  |  _ \       / _|/ _|             
+ *     | |  | | (___ | |__) | | |_) |_   _| |_| |_ ___ _ __ ___ 
+ *     | |  | |\___ \|  ___/  |  _ <| | | |  _|  _/ _ \ '__/ __|
+ *     | |__| |____) | |      | |_) | |_| | | | ||  __/ |  \__ \
+ *     |_____/|_____/|_|      |____/ \__,_|_| |_| \___|_|  |___/
+ *                                                              
+ *                                                              
+ */
+
 volatile q15_t MicFFT[256];
 volatile q15_t MicFFT_Mag[128];
 const q15_t Hanning[128];
-
 uint8_t DisplayBuf[64];
+
+/***
+ *       _____        _______ _      _                                 _ _         _____                        _ _             
+ *      / ____|      |__   __(_)    | |                 /\            | (_)       |  __ \                      | (_)            
+ *     | (___  _   _ ___| |   _  ___| | __  ______     /  \  _   _  __| |_  ___   | |__) |___  ___ ___  _ __ __| |_ _ __   __ _ 
+ *      \___ \| | | / __| |  | |/ __| |/ / |______|   / /\ \| | | |/ _` | |/ _ \  |  _  // _ \/ __/ _ \| '__/ _` | | '_ \ / _` |
+ *      ____) | |_| \__ \ |  | | (__|   <            / ____ \ |_| | (_| | | (_) | | | \ \  __/ (_| (_) | | | (_| | | | | | (_| |
+ *     |_____/ \__, |___/_|  |_|\___|_|\_\          /_/    \_\__,_|\__,_|_|\___/  |_|  \_\___|\___\___/|_|  \__,_|_|_| |_|\__, |
+ *              __/ |                                                                                                      __/ |
+ *             |___/                                                                                                      |___/ 
+ */
 
 void InitSysTick()
 {
@@ -66,13 +114,29 @@ void SysTick_Handler()
 #define ENABLE_WINDOW_JUMPER	(GPIOD_PDIR & (1<<5))
 #define ENABLE_FFT_JUMPER		(GPIOD_PDIR & (1<<6))
 
+/***
+ *      __  __             _                _      _     _               __  __       _       
+ *     |  \/  |           | |              | |    (_)   | |             |  \/  |     (_)      
+ *     | \  / | ___  _ __ | | _____ _   _  | |     _ ___| |_ ___ _ __   | \  / | __ _ _ _ __  
+ *     | |\/| |/ _ \| '_ \| |/ / _ \ | | | | |    | / __| __/ _ \ '_ \  | |\/| |/ _` | | '_ \ 
+ *     | |  | | (_) | | | |   <  __/ |_| | | |____| \__ \ ||  __/ | | | | |  | | (_| | | | | |
+ *     |_|  |_|\___/|_| |_|_|\_\___|\__, | |______|_|___/\__\___|_| |_| |_|  |_|\__,_|_|_| |_|
+ *                                   __/ |                                                    
+ *                                  |___/                                                     
+ */
+
 int main(void)
 {
-    int i,j = 0;
-    int16_t Temp;
-    int16_t LastY;
-    arm_rfft_instance_q15  Sr;
-    arm_cfft_radix4_instance_q15 Sc;
+	
+	int32_t i = 0;
+	
+	#if  (MONKEY_LISTEN_MODE == MODE_TIME_DOMAIN_PLUS_FFT)
+		int16_t Temp;
+		int16_t LastY;
+	#endif
+    
+    arm_rfft_instance_q15  		  RealFFT_Instance;
+    arm_cfft_radix4_instance_q15 MyComplexFFT_Instance;
     
     //enable Clocks to All the Ports
   
@@ -91,10 +155,12 @@ int main(void)
     PORTD_PCR(6) = PORT_PCR_MUX(1) | PORT_PCR_PE_MASK | PORT_PCR_PS_MASK ;
     GPIOD_PDDR &= ~(1<<6);
    
+    //Get the ADC running
     InitADC_12Bit();
     InitSysTick();
     EnableInterrupts;
     
+    //Initialize the Graphics driver
     GFX_Init();
  
     //Initialize The Ping-pong Buffer.   The IRQ routine will fill up the back buffer while the FFT is done on the foreground buffer
@@ -102,9 +168,9 @@ int main(void)
     Activebuffer = MicBuffer1;
     Backbuffer	 = MicBuffer2;
     
-    //Initilialize the FFT Structures
-    arm_rfft_init_q15(&Sr,
-                      &Sc,
+    //Intilialize the FFT Structures
+    arm_rfft_init_q15(&RealFFT_Instance,
+                      &MyComplexFFT_Instance,
                       128,
                       0,
                       1); //Bit Reverse Flag enabled
@@ -115,14 +181,15 @@ int main(void)
     //Start the Backbuffer Recording
     CaptureActive = 1;
     
-	#if    (MONKEY_LISTEN_MODE == MODE_SPECTROGRAM)
-    	SSD1325_SetRemap(0x50 | 1<<2); // Spectrogram mode we are skipping the graphics library and writing direct to the display in column mode
+    // In spectrogram mode we are skipping the graphics library and writing direct to the display in column mode
+	#if (MONKEY_LISTEN_MODE == MODE_SPECTROGRAM)
+    	SSD1325_SetRemap(0x50 | 1<<2); 
 	#endif
  
     while(1)
         {
     		
-    		//If We are here we are ready to process our back buffer
+    		//If we are here we are ready to process our back buffer
     		
     		//Apply a Hanning window if the jumper is set.
     		//If not, we just keep our rectanglular window
@@ -137,6 +204,17 @@ int main(void)
             
 #if  (MONKEY_LISTEN_MODE == MODE_TIME_DOMAIN_PLUS_FFT)
 
+            /***
+             *      _______ _                _____                        _                 ______ ______ _______ 
+             *     |__   __(_)              |  __ \                      (_)          _    |  ____|  ____|__   __|
+             *        | |   _ _ __ ___   ___| |  | | ___  _ __ ___   __ _ _ _ __    _| |_  | |__  | |__     | |   
+             *        | |  | | '_ ` _ \ / _ \ |  | |/ _ \| '_ ` _ \ / _` | | '_ \  |_   _| |  __| |  __|    | |   
+             *        | |  | | | | | | |  __/ |__| | (_) | | | | | | (_| | | | | |   |_|   | |    | |       | |   
+             *        |_|  |_|_| |_| |_|\___|_____/ \___/|_| |_| |_|\__,_|_|_| |_|         |_|    |_|       |_|   
+             *                                                                                                    
+             *                                                                                                    
+             */
+            
             if(ENABLE_FFT_JUMPER)
                 {
                     GFX_ImagePlane_Clear(&GFX_BackBuffer);
@@ -161,8 +239,11 @@ int main(void)
             else
                 {
                     GFX_ImagePlane_Clear(&GFX_BackBuffer);
+                  
                     //Compute the FFT
-                    arm_rfft_q15(  &Sr, (q15_t *)Activebuffer,  (q15_t *)MicFFT);
+                    arm_rfft_q15( &RealFFT_Instance, 
+                    		       (q15_t *)Activebuffer,
+                    		       (q15_t *)MicFFT);
 
                     //Scale the input before computing magnitude
                     for(i=0; i<256; i++)
@@ -189,8 +270,21 @@ int main(void)
             
 #elif    (MONKEY_LISTEN_MODE == MODE_SPECTROGRAM)
         
+							/***
+							 *       _____                 _                                       
+							 *      / ____|               | |                                      
+							 *     | (___  _ __   ___  ___| |_ _ __ ___   __ _ _ __ __ _ _ __ ___  
+							 *      \___ \| '_ \ / _ \/ __| __| '__/ _ \ / _` | '__/ _` | '_ ` _ \ 
+							 *      ____) | |_) |  __/ (__| |_| | | (_) | (_| | | | (_| | | | | | |
+							 *     |_____/| .__/ \___|\___|\__|_|  \___/ \__, |_|  \__,_|_| |_| |_|
+							 *            | |                             __/ |                    
+							 *            |_|                            |___/                     
+							 */
+							
             				 //Compute the FFT
-                              arm_rfft_q15(  &Sr, (q15_t *)Activebuffer,  (q15_t *)MicFFT);
+                              arm_rfft_q15(  &RealFFT_Instance,
+                            		  	  	 (q15_t *)Activebuffer, 
+                            		  	  	 (q15_t *)MicFFT);
 
                               //Scale the input before computing magnitude
                               for(i=0; i<256; i++)
@@ -201,7 +295,7 @@ int main(void)
                               //FFT function returns the real / imaginary values.   We need to compute the magnitude
                               arm_cmplx_mag_q15((q15_t *)MicFFT,
                             		  	  	    (q15_t *)MicFFT_Mag,
-                            		  	  	    		128);
+                            		  	  	    		 128);
                               
                               //We are just going to update the column all the way on the left
                               //The scrolling feature will move the image to the left by 2 ixels so we are going 
@@ -243,7 +337,7 @@ int main(void)
                 {
                 }
 
-            //Swap the Active/Background Buffer
+            //Swap the Active/Background Buffer ---> Ping Pong!
             if( BufferPtr == 0)
                 {
                     BufferPtr = 1;
@@ -257,7 +351,7 @@ int main(void)
                     Backbuffer = MicBuffer2;
                 }
 
-            //Start the backup capture
+            //Start the background capture on the new buffer
             CaptureActive = 1;
             
         }
@@ -265,7 +359,16 @@ int main(void)
     return 0;
 }
 
-
+/***
+ *      _    _                   _              __          ___           _                  _____            __  __ _      _            _       
+ *     | |  | |                 (_)             \ \        / (_)         | |                / ____|          / _|/ _(_)    (_)          | |      
+ *     | |__| | __ _ _ __  _ __  _ _ __   __ _   \ \  /\  / / _ _ __   __| | _____      __ | |     ___   ___| |_| |_ _  ___ _  ___ _ __ | |_ ___ 
+ *     |  __  |/ _` | '_ \| '_ \| | '_ \ / _` |   \ \/  \/ / | | '_ \ / _` |/ _ \ \ /\ / / | |    / _ \ / _ \  _|  _| |/ __| |/ _ \ '_ \| __/ __|
+ *     | |  | | (_| | | | | | | | | | | | (_| |    \  /\  /  | | | | | (_| | (_) \ V  V /  | |___| (_) |  __/ | | | | | (__| |  __/ | | | |_\__ \
+ *     |_|  |_|\__,_|_| |_|_| |_|_|_| |_|\__, |     \/  \/   |_|_| |_|\__,_|\___/ \_/\_/    \_____\___/ \___|_| |_| |_|\___|_|\___|_| |_|\__|___/
+ *                                        __/ |                                                                                                  
+ *                                       |___/                                                                                                   
+ */
 const q15_t Hanning[128] =
 {
     0	,

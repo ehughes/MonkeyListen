@@ -1,6 +1,7 @@
 #include "GFX.h"
 #include <stdlib.h>
 #include <stdarg.h>
+#include <stdio.h>
 
 GFX_ImagePlane GFX_BackBuffer;
 uint8_t BackBufferStorageSpace[((GFX_BACKBUFFER_SIZE_X)>>3) * GFX_PHYSICAL_SCREEN_SIZE_Y];
@@ -98,7 +99,6 @@ void GFX_DrawFilledBox(GFX_ImagePlane *Image, GFXDisplayBox *Box, uint8_t PixelS
 
 void GFX_DrawBox(GFX_ImagePlane *Image, GFXDisplayBox *Box, uint8_t PixelState)
 {
-    uint16_t i;
     GFX_DrawHline(Image, Box->P1.X, Box->P2.X,Box->P1.Y,PixelState);
     GFX_DrawHline(Image, Box->P1.X, Box->P2.X,Box->P2.Y,PixelState);
     GFX_DrawVline(Image, Box->P1.Y, Box->P2.Y,Box->P1.X,PixelState);
@@ -452,8 +452,7 @@ void GFX_ScaledDrawString(GFX_ImagePlane *Image,char *String,int16_t StartX, int
 {
     uint8_t Ptr = 0;
     uint8_t NextChar;
-    uint8_t i;
-    NextChar = String[Ptr];
+     NextChar = String[Ptr];
 
     while((NextChar!=0) && (Ptr <GFX_MAX_STRING_LEN))
         {
@@ -469,7 +468,6 @@ void GFX_ScaledDrawString_CustomSpacing(GFX_ImagePlane *Image,char *String,int16
 {
     uint8_t Ptr = 0;
     uint8_t NextChar;
-    uint8_t i;
     NextChar = String[Ptr];
 
     while((NextChar!=0) && (Ptr <GFX_MAX_STRING_LEN))
@@ -486,7 +484,7 @@ int16_t  GFX_DrawString(GFX_ImagePlane *Image,char *String,int16_t StartX, int16
 {
     uint8_t Ptr = 0;
     uint8_t NextChar;
-    uint8_t i;
+   
     NextChar = String[Ptr];
 
     while((NextChar!=0) && (Ptr <GFX_MAX_STRING_LEN))
@@ -505,7 +503,7 @@ int16_t  GFX_printf(GFX_ImagePlane *Image,int16_t StartX, int16_t StartY, const 
     int16_t End;
     va_list argptr;
     va_start(argptr,FormatString);
-    vsnprintf((char *)GFX_StringBuf,GFX_MAX_PRINTF_BUF_LENGTH,FormatString,argptr);
+    snprintf((char *)GFX_StringBuf,GFX_MAX_PRINTF_BUF_LENGTH,FormatString,argptr);
     va_end(argptr);
     End = StartX + GFX_GetStringWidth_CustomSpacing(GFX_StringBuf,MyFont,CharacterSpacing) + 1;
     GFX_DrawString_CustomSpacing(Image,GFX_StringBuf,StartX,StartY,MyFont,PixelState,CharacterSpacing);
@@ -517,7 +515,7 @@ int16_t GFX_DrawString_CustomSpacing(GFX_ImagePlane *Image,char *String,int16_t 
 {
     uint8_t Ptr = 0;
     uint8_t NextChar;
-    uint8_t i;
+
     NextChar = String[Ptr];
 
     while((NextChar!=0) && (Ptr <GFX_MAX_STRING_LEN))
@@ -854,7 +852,7 @@ void GFX_Blit(GFX_ImagePlane *Destination,const GFX_ImagePlane *Sprite,int16_t x
         {
             for(i=0; i<Sprite->SizeX; i++)
                 {
-                    if(GFX_ImagePlane_Get(Sprite,i,j) == 1)
+                    if(GFX_ImagePlane_Get((GFX_ImagePlane *)Sprite,i,j) == 1)
                         GFX_PutPixel(Destination,x+i,y+j,PixelState);
                 }
         }
@@ -877,7 +875,7 @@ void GFX_ScaledBlit(GFX_ImagePlane *Destination,const GFX_ImagePlane *Sprite,int
 
             for(i=0; i<DestinationSizeX; i++)
                 {
-                    if(GFX_ImagePlane_Get(Sprite,SourcePixelX,SourcePixelY) == 1)
+                    if(GFX_ImagePlane_Get((GFX_ImagePlane *)Sprite,SourcePixelX,SourcePixelY) == 1)
                         GFX_PutPixel(Destination,x+i,y+j,PixelState);
 
                     AccumulatorX += Sprite->SizeX;

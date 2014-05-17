@@ -502,28 +502,6 @@ void SSD_WriteColumn(uint8_t * Data)
 }
 
 
-void Test()
-{
-    uint8_t D = 0xF0;
-    uint32_t i,j;
-
-    while(1)
-        {
-            //for(j=0;j<10000;j++)
-            {
-            }
-            D = rand();
-            SSD1325_Write(D);
-            /*
-            	D=1;
-            	for(i=0;i<(64*32)-1;i++)
-            		{
-            		SSD1325_Write(D);
-            		}*/
-            SSD1325_SET_CS;
-        }
-}
-
 
 //***********************************************************************************
 //Linking Functions to The GFX main library
