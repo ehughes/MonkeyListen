@@ -913,8 +913,10 @@ Discarded input sections
                 0x00000000       0x18 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
  .text.SSD1325_ScrollRight
                 0x00000000       0x34 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
- .text.GFX_DumpImagePlaneToPhysicalScreen
-                0x00000000      0x130 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD1325_ScrollLeft
+                0x00000000       0x34 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+ .text.SSD_WriteColumn
+                0x00000000       0x50 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
  .text.GFX_PowerUpScreen
                 0x00000000        0x4 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
  .text.GFX_PowerDownScreen
@@ -926,12 +928,8 @@ Discarded input sections
                 0x00000000       0xc4 ./Sources/GFX/GFX.o
  .text.GFX_DrawFilledBox
                 0x00000000       0x38 ./Sources/GFX/GFX.o
- .text.GFX_DrawVline
-                0x00000000      0x148 ./Sources/GFX/GFX.o
  .text.GFX_DrawBox
                 0x00000000       0x5c ./Sources/GFX/GFX.o
- .text.GFX_DrawLine
-                0x00000000      0x6e4 ./Sources/GFX/GFX.o
  .text.GFX_Draw_DOT_FACTORY_Character
                 0x00000000      0x24c ./Sources/GFX/GFX.o
  .text.GFX_Draw_DOT_FACTORY_String
@@ -978,8 +976,6 @@ Discarded input sections
                 0x00000000       0x1c ./Sources/GFX/GFX.o
  .text.GFX_InitImagePlane
                 0x00000000        0x8 ./Sources/GFX/GFX.o
- .text.GFX_ImagePlane_Clear
-                0x00000000       0x48 ./Sources/GFX/GFX.o
  .text.GET_INT_FROM_FIXED_7_8_ROUND_TO_NEAREST
                 0x00000000        0xc ./Sources/GFX/GFX.o
  .text.FLOAT_TO_FIXED_7_8
@@ -1366,8 +1362,8 @@ LOAD ./Sources/drivers/adc16/adc16.o
 LOAD ./Sources/drivers/frdm-k20-def.o
 LOAD ./Sources/drivers/mcg/mcg.o
 LOAD ./Sources/main.o
-                0x00002d08                __pformatter = __pformatter_
-                [0x00003100]                __sformatter = __sformatter
+                0x000036ac                __pformatter = __pformatter_
+                [0x00003aa4]                __sformatter = __sformatter
 LOAD C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a
 START GROUP
 LOAD C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a
@@ -1394,7 +1390,7 @@ END GROUP
  *(.cfmconfig)
                 0x00000400                . = ALIGN (0x4)
 
-.text           0x00000800     0xee44
+.text           0x00000800     0xf7e8
                 0x00000800                . = ALIGN (0x4)
  *(.text)
  .text          0x00000800      0x21c c:/freescale/cw mcu v10.5/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7e-m\libgcc.a(_arm_addsubsf3.o)
@@ -1518,138 +1514,144 @@ END GROUP
  .text.SSD1325_SetContrastCurrent
                 0x000012f0       0x1c ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
                 0x000012f0                SSD1325_SetContrastCurrent
- .text.SSD1325_ScrollLeft
-                0x0000130c       0x34 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
-                0x0000130c                SSD1325_ScrollLeft
- .text.SSD_WriteColumn
-                0x00001340       0x50 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
-                0x00001340                SSD_WriteColumn
  .text.GFX_InitPhysicalScreen
-                0x00001390       0x90 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
-                0x00001390                GFX_InitPhysicalScreen
+                0x0000130c       0x90 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000130c                GFX_InitPhysicalScreen
+ .text.GFX_DumpImagePlaneToPhysicalScreen
+                0x0000139c      0x130 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
+                0x0000139c                GFX_DumpImagePlaneToPhysicalScreen
  .text.GFX_Init
-                0x00001420       0x38 ./Sources/GFX/GFX.o
-                0x00001420                GFX_Init
- .text.ADC_Cal  0x00001458       0x98 ./Sources/drivers/adc16/adc16.o
-                0x00001458                ADC_Cal
+                0x000014cc       0x38 ./Sources/GFX/GFX.o
+                0x000014cc                GFX_Init
+ .text.GFX_DrawVline
+                0x00001504      0x148 ./Sources/GFX/GFX.o
+                0x00001504                GFX_DrawVline
+ .text.GFX_DrawLine
+                0x0000164c      0x6e4 ./Sources/GFX/GFX.o
+                0x0000164c                GFX_DrawLine
+ .text.GFX_ImagePlane_Clear
+                0x00001d30       0x48 ./Sources/GFX/GFX.o
+                0x00001d30                GFX_ImagePlane_Clear
+ .text.ADC_Cal  0x00001d78       0x98 ./Sources/drivers/adc16/adc16.o
+                0x00001d78                ADC_Cal
  .text.InitADC_12Bit
-                0x000014f0       0xac ./Sources/drivers/adc16/adc16.o
-                0x000014f0                InitADC_12Bit
+                0x00001e10       0xac ./Sources/drivers/adc16/adc16.o
+                0x00001e10                InitADC_12Bit
  .text.StartADC0_SingleEnded
-                0x0000159c       0x28 ./Sources/drivers/adc16/adc16.o
-                0x0000159c                StartADC0_SingleEnded
+                0x00001ebc       0x28 ./Sources/drivers/adc16/adc16.o
+                0x00001ebc                StartADC0_SingleEnded
  .text.pll_init
-                0x000015c4      0x2f4 ./Sources/drivers/mcg/mcg.o
-                0x000015c4                pll_init
+                0x00001ee4      0x2f4 ./Sources/drivers/mcg/mcg.o
+                0x00001ee4                pll_init
  .text.SysTick_Handler
-                0x000018b8       0x54 ./Sources/main.o
-                0x000018b8                SysTick_Handler
+                0x000021d8       0x54 ./Sources/main.o
+                0x000021d8                SysTick_Handler
  .text.startup.main
-                0x0000190c      0x26c ./Sources/main.o
-                0x0000190c                main
+                0x0000222c      0x2f0 ./Sources/main.o
+                0x0000222c                main
  .text.arm_cmplx_mag_q15
-                0x00001b78      0x1e0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
-                0x00001b78                arm_cmplx_mag_q15
+                0x0000251c      0x1e0 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+                0x0000251c                arm_cmplx_mag_q15
  .text.arm_sqrt_q15
-                0x00001d58       0xf4 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
-                0x00001d58                arm_sqrt_q15
+                0x000026fc       0xf4 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+                0x000026fc                arm_sqrt_q15
  .text.arm_split_rfft_q15
-                0x00001e4c      0x1ac C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
-                0x00001e4c                arm_split_rfft_q15
+                0x000027f0      0x1ac C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                0x000027f0                arm_split_rfft_q15
  .text.arm_rfft_q15
-                0x00001ff8      0x1a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
-                0x00001ff8                arm_rfft_q15
+                0x0000299c      0x1a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                0x0000299c                arm_rfft_q15
  .text.arm_rfft_init_q15
-                0x000021a0       0x88 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
-                0x000021a0                arm_rfft_init_q15
+                0x00002b44       0x88 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                0x00002b44                arm_rfft_init_q15
  .text.arm_radix4_butterfly_q15
-                0x00002228      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
-                0x00002228                arm_radix4_butterfly_q15
+                0x00002bcc      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                0x00002bcc                arm_radix4_butterfly_q15
  .text.arm_radix4_butterfly_inverse_q15
-                0x000025d0      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
-                0x000025d0                arm_radix4_butterfly_inverse_q15
+                0x00002f74      0x3a8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                0x00002f74                arm_radix4_butterfly_inverse_q15
  .text.arm_cfft_radix4_init_q15
-                0x00002978       0x94 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
-                0x00002978                arm_cfft_radix4_init_q15
+                0x0000331c       0x94 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+                0x0000331c                arm_cfft_radix4_init_q15
  .text.arm_bitreversal_q15
-                0x00002a0c      0x120 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
-                0x00002a0c                arm_bitreversal_q15
- .text.exit     0x00002b2c       0x38 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
-                0x00002b2c                exit
- .text.memset   0x00002b64        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
-                0x00002b64                memset
+                0x000033b0      0x120 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+                0x000033b0                arm_bitreversal_q15
+ .text.exit     0x000034d0       0x38 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+                0x000034d0                exit
+ .text.memset   0x00003508        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+                0x00003508                memset
  .text.long2str.isra.0
-                0x00002b70      0x196 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
- *fill*         0x00002d06        0x2 00
+                0x00003514      0x196 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ *fill*         0x000036aa        0x2 00
  .text.__pformatter_
-                0x00002d08      0x3f8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
-                0x00002d08                __pformatter_
+                0x000036ac      0x3f8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x000036ac                __pformatter_
  .text.__sformatter
-                0x00003100      0x6f4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
-                0x00003100                __sformatter
- .text.isalpha  0x000037f4       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
-                0x000037f4                isalpha
- .text.isspace  0x00003810       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
-                0x00003810                isspace
- .text.toupper  0x0000382c        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
-                0x0000382c                toupper
+                0x00003aa4      0x6f4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+                0x00003aa4                __sformatter
+ .text.isalpha  0x00004198       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x00004198                isalpha
+ .text.isspace  0x000041b4       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x000041b4                isspace
+ .text.toupper  0x000041d0        0xc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x000041d0                toupper
  .text.__strtoul
-                0x00003838      0x214 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
-                0x00003838                __strtoul
+                0x000041dc      0x214 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+                0x000041dc                __strtoul
  .text.__fill_mem
-                0x00003a4c       0x76 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
-                0x00003a4c                __fill_mem
- .text.memchr   0x00003ac2       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
-                0x00003ac2                memchr
- .text.strchr   0x00003ada       0x1a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
-                0x00003ada                strchr
- .text.strlen   0x00003af4       0x10 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
-                0x00003af4                strlen
+                0x000043f0       0x76 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+                0x000043f0                __fill_mem
+ .text.memchr   0x00004466       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+                0x00004466                memchr
+ .text.strchr   0x0000447e       0x1a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+                0x0000447e                strchr
+ .text.strlen   0x00004498       0x10 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+                0x00004498                strlen
  .text.__init_cpp
-                0x00003b04       0x4c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
-                0x00003b04                __init_cpp
+                0x000044a8       0x4c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x000044a8                __init_cpp
  .text.__fini_cpp
-                0x00003b50       0x34 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
-                0x00003b50                __fini_cpp
+                0x000044f4       0x34 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x000044f4                __fini_cpp
  .text.__copy_rom_section
-                0x00003b84       0x44 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
-                0x00003b84                __copy_rom_section
+                0x00004528       0x44 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x00004528                __copy_rom_section
  .text.__copy_rom_sections_to_ram
-                0x00003bc8       0x30 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
-                0x00003bc8                __copy_rom_sections_to_ram
+                0x0000456c       0x30 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+                0x0000456c                __copy_rom_sections_to_ram
  .text.__destroy_global_chain
-                0x00003bf8       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
-                0x00003bf8                __destroy_global_chain
+                0x0000459c       0x18 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x0000459c                __destroy_global_chain
  .text.__init_registers
-                0x00003c10       0x24 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
-                0x00003c10                __init_registers
+                0x000045b4       0x24 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x000045b4                __init_registers
  .text.__init_user
-                0x00003c34        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
-                0x00003c34                __init_user
+                0x000045d8        0x4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x000045d8                __init_user
  *(.rodata)
  *(.rodata*)
  .rodata.Hanning
-                0x00003c38      0x100 ./Sources/main.o
-                0x00003c38                Hanning
+                0x000045dc      0x100 ./Sources/main.o
+                0x000045dc                Hanning
  .rodata.realCoefAQ15
-                0x00003d38     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                0x000046dc     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
  .rodata.realCoefBQ15
-                0x00007d38     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                0x000086dc     0x4000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
  .rodata.twiddleCoefQ15
-                0x0000bd38     0x3000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
-                0x0000bd38                twiddleCoefQ15
+                0x0000c6dc     0x3000 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                0x0000c6dc                twiddleCoefQ15
  .rodata.armBitRevTable
-                0x0000ed38      0x800 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
-                0x0000ed38                armBitRevTable
+                0x0000f6dc      0x800 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                0x0000f6dc                armBitRevTable
  .rodata.str1.1
-                0x0000f538        0x1 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x0000fedc        0x1 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
  .rodata.CSWTCH.20
-                0x0000f539        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x0000fedd        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
  .rodata.CSWTCH.21
-                0x0000f53e        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+                0x0000fee2        0x5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
  .rodata.__aeabi_ctype_table_C
-                0x0000f543      0x101 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
-                0x0000f543                __aeabi_ctype_table_C
+                0x0000fee7      0x101 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+                0x0000fee7                __aeabi_ctype_table_C
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
@@ -1657,64 +1659,64 @@ END GROUP
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x0000f644                . = ALIGN (0x4)
-                0x0000f644                _etext = .
+                0x0000ffe8                . = ALIGN (0x4)
+                0x0000ffe8                _etext = .
 
-.vfp11_veneer   0x0000f644        0x0
+.vfp11_veneer   0x0000ffe8        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0000f644        0x0
+.v4_bx          0x0000ffe8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0000f644        0x0
+.iplt           0x0000ffe8        0x0
  .iplt          0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
 
-.rel.dyn        0x0000f644        0x0
+.rel.dyn        0x0000ffe8        0x0
  .rel.iplt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000f644        0x0
-                0x0000f644                __exidx_start = .
+.ARM            0x0000ffe8        0x0
+                0x0000ffe8                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000f644                __exidx_end = .
+                0x0000ffe8                __exidx_end = .
 
-.ctors          0x0000f644        0x0
-                0x0000f644                __CTOR_LIST__ = .
+.ctors          0x0000ffe8        0x0
+                0x0000ffe8                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x0000f644                __CTOR_END__ = .
+                0x0000ffe8                __CTOR_END__ = .
 
-.dtors          0x0000f644        0x0
-                0x0000f644                __DTOR_LIST__ = .
+.dtors          0x0000ffe8        0x0
+                0x0000ffe8                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x0000f644                __DTOR_END__ = .
+                0x0000ffe8                __DTOR_END__ = .
 
-.preinit_array  0x0000f644        0x0
-                0x0000f644                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x0000ffe8        0x0
+                0x0000ffe8                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0000f644                PROVIDE (__preinit_array_end, .)
+                0x0000ffe8                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x0000f644        0x0
-                0x0000f644                PROVIDE (__init_array_start, .)
+.init_array     0x0000ffe8        0x0
+                0x0000ffe8                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
-                0x0000f644                PROVIDE (__init_array_end, .)
+                0x0000ffe8                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000f644        0x0
-                0x0000f644                PROVIDE (__fini_array_start, .)
+.fini_array     0x0000ffe8        0x0
+                0x0000ffe8                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
-                0x0000f644                PROVIDE (__fini_array_end, .)
-                0x0000f644                ___ROM_AT = .
+                0x0000ffe8                PROVIDE (__fini_array_end, .)
+                0x0000ffe8                ___ROM_AT = .
 
-.data           0x1fffe000        0x0 load address 0x0000f644
+.data           0x1fffe000        0x0 load address 0x0000ffe8
                 0x1fffe000                . = ALIGN (0x4)
                 0x1fffe000                _sdata = .
  *(.data)
@@ -1722,12 +1724,12 @@ END GROUP
                 0x1fffe000                . = ALIGN (0x4)
                 0x1fffe000                _edata = .
                 0x00000000                ___data_size = (_edata - _sdata)
-                0x0000f644                ___m_data2_ROMStart = (___ROM_AT + SIZEOF (.data))
+                0x0000ffe8                ___m_data2_ROMStart = (___ROM_AT + SIZEOF (.data))
 
 .igot.plt       0x1fffe000        0x0
  .igot.plt      0x00000000        0x0 ./Project_Settings/Startup_Code/kinetis_sysinit.o
 
-.user_data2     0x20000000        0x0 load address 0x0000f644
+.user_data2     0x20000000        0x0 load address 0x0000ffe8
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                ___m_data2_RAMStart = .
  *(.data2)
@@ -1792,14 +1794,14 @@ END GROUP
                 0x1ffff200                . = (. + __stack_size)
  *fill*         0x1fffee00      0x400 00
                 0x1ffff200                . = ALIGN (0x4)
-                0x0000f644                _romp_at = ((___ROM_AT + SIZEOF (.data)) + SIZEOF (.user_data2))
+                0x0000ffe8                _romp_at = ((___ROM_AT + SIZEOF (.data)) + SIZEOF (.user_data2))
 
-.romp           0x20000000       0x24 load address 0x0000f644
-                0x0000f644                __S_romp = _romp_at
-                0x20000000        0x4 LONG 0xf644 ___ROM_AT
+.romp           0x20000000       0x24 load address 0x0000ffe8
+                0x0000ffe8                __S_romp = _romp_at
+                0x20000000        0x4 LONG 0xffe8 ___ROM_AT
                 0x20000004        0x4 LONG 0x1fffe000 _sdata
                 0x20000008        0x4 LONG 0x0 ___data_size
-                0x2000000c        0x4 LONG 0xf644 ___m_data2_ROMStart
+                0x2000000c        0x4 LONG 0xffe8 ___m_data2_ROMStart
                 0x20000010        0x4 LONG 0x20000000 ___m_data2_RAMStart
                 0x20000014        0x4 LONG 0x0 ___m_data2_ROMSize
                 0x20000018        0x4 LONG 0x0
@@ -1875,7 +1877,7 @@ END GROUP
                 0x000005ee       0x33 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 OUTPUT(MonkeyListen.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xb6cc
+.debug_info     0x00000000     0xb840
  .debug_info    0x00000000      0x355 ./Project_Settings/Startup_Code/kinetis_sysinit.o
  .debug_info    0x00000355      0x148 ./Project_Settings/Startup_Code/__arm_start.o
  .debug_info    0x0000049d       0x52 ./Project_Settings/Startup_Code/__arm_end.o
@@ -1883,30 +1885,30 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_info    0x0000105a     0x3958 ./Sources/GFX/GFX.o
  .debug_info    0x000049b2      0x885 ./Sources/drivers/adc16/adc16.o
  .debug_info    0x00005237      0xdb5 ./Sources/drivers/mcg/mcg.o
- .debug_info    0x00005fec      0x8ef ./Sources/main.o
- .debug_info    0x000068db      0x2d6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
- .debug_info    0x00006bb1      0x234 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
- .debug_info    0x00006de5      0x9b2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
- .debug_info    0x00007797      0x2e2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
- .debug_info    0x00007a79     0x1733 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
- .debug_info    0x000091ac      0x235 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
- .debug_info    0x000093e1      0x2c8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
- .debug_info    0x000096a9      0x533 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
- .debug_info    0x00009bdc       0xe8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
- .debug_info    0x00009cc4       0xec C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
- .debug_info    0x00009db0      0x50e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
- .debug_info    0x0000a2be      0x565 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
- .debug_info    0x0000a823      0x306 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
- .debug_info    0x0000ab29      0x1d6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
- .debug_info    0x0000acff      0x135 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
- .debug_info    0x0000ae34      0x120 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
- .debug_info    0x0000af54      0x108 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
- .debug_info    0x0000b05c       0xeb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
- .debug_info    0x0000b147      0x136 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
- .debug_info    0x0000b27d      0x19a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
- .debug_info    0x0000b417      0x2b5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00005fec      0xa63 ./Sources/main.o
+ .debug_info    0x00006a4f      0x2d6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_info    0x00006d25      0x234 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_info    0x00006f59      0x9b2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_info    0x0000790b      0x2e2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_info    0x00007bed     0x1733 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_info    0x00009320      0x235 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_info    0x00009555      0x2c8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_info    0x0000981d      0x533 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_info    0x00009d50       0xe8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_info    0x00009e38       0xec C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_info    0x00009f24      0x50e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_info    0x0000a432      0x565 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_info    0x0000a997      0x306 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_info    0x0000ac9d      0x1d6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_info    0x0000ae73      0x135 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_info    0x0000afa8      0x120 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_info    0x0000b0c8      0x108 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_info    0x0000b1d0       0xeb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_info    0x0000b2bb      0x136 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x0000b3f1      0x19a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_info    0x0000b58b      0x2b5 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 
-.debug_abbrev   0x00000000     0x21b0
+.debug_abbrev   0x00000000     0x2249
  .debug_abbrev  0x00000000       0xf6 ./Project_Settings/Startup_Code/kinetis_sysinit.o
  .debug_abbrev  0x000000f6       0xc2 ./Project_Settings/Startup_Code/__arm_start.o
  .debug_abbrev  0x000001b8       0x4c ./Project_Settings/Startup_Code/__arm_end.o
@@ -1914,28 +1916,28 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_abbrev  0x000004a2      0x37d ./Sources/GFX/GFX.o
  .debug_abbrev  0x0000081f      0x1f2 ./Sources/drivers/adc16/adc16.o
  .debug_abbrev  0x00000a11      0x1e9 ./Sources/drivers/mcg/mcg.o
- .debug_abbrev  0x00000bfa      0x17d ./Sources/main.o
- .debug_abbrev  0x00000d77       0xfa C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
- .debug_abbrev  0x00000e71      0x11d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
- .debug_abbrev  0x00000f8e      0x183 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
- .debug_abbrev  0x00001111      0x109 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
- .debug_abbrev  0x0000121a      0x193 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
- .debug_abbrev  0x000013ad       0xed C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
- .debug_abbrev  0x0000149a       0xc2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
- .debug_abbrev  0x0000155c       0x86 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
- .debug_abbrev  0x000015e2       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
- .debug_abbrev  0x0000165c       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
- .debug_abbrev  0x000016be      0x200 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
- .debug_abbrev  0x000018be      0x1f0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
- .debug_abbrev  0x00001aae       0x85 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
- .debug_abbrev  0x00001b33       0xc2 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
- .debug_abbrev  0x00001bf5       0x87 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
- .debug_abbrev  0x00001c7c       0x95 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
- .debug_abbrev  0x00001d11       0x89 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
- .debug_abbrev  0x00001d9a       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
- .debug_abbrev  0x00001e14       0x99 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
- .debug_abbrev  0x00001ead      0x137 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
- .debug_abbrev  0x00001fe4      0x1cc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x00000bfa      0x216 ./Sources/main.o
+ .debug_abbrev  0x00000e10       0xfa C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_abbrev  0x00000f0a      0x11d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_abbrev  0x00001027      0x183 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_abbrev  0x000011aa      0x109 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_abbrev  0x000012b3      0x193 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_abbrev  0x00001446       0xed C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_abbrev  0x00001533       0xc2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_abbrev  0x000015f5       0x86 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_abbrev  0x0000167b       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_abbrev  0x000016f5       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_abbrev  0x00001757      0x200 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_abbrev  0x00001957      0x1f0 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_abbrev  0x00001b47       0x85 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_abbrev  0x00001bcc       0xc2 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_abbrev  0x00001c8e       0x87 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_abbrev  0x00001d15       0x95 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_abbrev  0x00001daa       0x89 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_abbrev  0x00001e33       0x7a C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_abbrev  0x00001ead       0x99 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001f46      0x137 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x0000207d      0x1cc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 
 .debug_aranges  0x00000000      0x800
  .debug_aranges
@@ -1997,7 +1999,7 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_aranges
                 0x000007a8       0x58 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 
-.debug_macinfo  0x00000000   0x175dcd
+.debug_macinfo  0x00000000   0x175dd6
  .debug_macinfo
                 0x00000000    0x3cc57 ./Project_Settings/Startup_Code/kinetis_sysinit.o
  .debug_macinfo
@@ -2013,25 +2015,25 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_macinfo
                 0x000c377d    0x3ccd5 ./Sources/drivers/mcg/mcg.o
  .debug_macinfo
-                0x00100452    0x4039b ./Sources/main.o
+                0x00100452    0x403a4 ./Sources/main.o
  .debug_macinfo
-                0x001407ed     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+                0x001407f6     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
  .debug_macinfo
-                0x0014718f     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+                0x00147198     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
  .debug_macinfo
-                0x0014dd65     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+                0x0014dd6e     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
  .debug_macinfo
-                0x00154707     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+                0x00154710     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
  .debug_macinfo
-                0x0015b0a9     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+                0x0015b0b2     0x69a2 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
  .debug_macinfo
-                0x00161a4b     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+                0x00161a54     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
  .debug_macinfo
-                0x00168621     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+                0x0016862a     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
  .debug_macinfo
-                0x0016f1f7     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+                0x0016f200     0x6bd6 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
 
-.debug_line     0x00000000     0x6753
+.debug_line     0x00000000     0x6786
  .debug_line    0x00000000      0x233 ./Project_Settings/Startup_Code/kinetis_sysinit.o
  .debug_line    0x00000233      0x29a ./Project_Settings/Startup_Code/__arm_start.o
  .debug_line    0x000004cd      0x265 ./Project_Settings/Startup_Code/__arm_end.o
@@ -2039,30 +2041,30 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_line    0x00000eca     0x133b ./Sources/GFX/GFX.o
  .debug_line    0x00002205      0x35b ./Sources/drivers/adc16/adc16.o
  .debug_line    0x00002560      0x99d ./Sources/drivers/mcg/mcg.o
- .debug_line    0x00002efd      0x4fb ./Sources/main.o
- .debug_line    0x000033f8      0x3f8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
- .debug_line    0x000037f0      0x383 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
- .debug_line    0x00003b73      0x617 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
- .debug_line    0x0000418a      0x36f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
- .debug_line    0x000044f9      0x86f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
- .debug_line    0x00004d68      0x394 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
- .debug_line    0x000050fc      0x527 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
- .debug_line    0x00005623      0x329 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
- .debug_line    0x0000594c       0x94 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
- .debug_line    0x000059e0       0x8f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
- .debug_line    0x00005a6f      0x2b4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
- .debug_line    0x00005d23      0x2df C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
- .debug_line    0x00006002      0x1a9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
- .debug_line    0x000061ab      0x11b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
- .debug_line    0x000062c6       0xcd C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
- .debug_line    0x00006393       0x9f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
- .debug_line    0x00006432       0x7d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
- .debug_line    0x000064af       0x83 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
- .debug_line    0x00006532       0x67 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
- .debug_line    0x00006599       0xa9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
- .debug_line    0x00006642      0x111 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00002efd      0x52e ./Sources/main.o
+ .debug_line    0x0000342b      0x3f8 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_line    0x00003823      0x383 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_line    0x00003ba6      0x617 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_line    0x000041bd      0x36f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_line    0x0000452c      0x86f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_line    0x00004d9b      0x394 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_line    0x0000512f      0x527 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_line    0x00005656      0x329 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_line    0x0000597f       0x94 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_line    0x00005a13       0x8f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_line    0x00005aa2      0x2b4 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_line    0x00005d56      0x2df C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_line    0x00006035      0x1a9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_line    0x000061de      0x11b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_line    0x000062f9       0xcd C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_line    0x000063c6       0x9f C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_line    0x00006465       0x7d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_line    0x000064e2       0x83 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_line    0x00006565       0x67 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x000065cc       0xa9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x00006675      0x111 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 
-.debug_str      0x00000000     0x2594
+.debug_str      0x00000000     0x259f
  .debug_str     0x00000000      0x272 ./Project_Settings/Startup_Code/kinetis_sysinit.o
                                 0x299 (size before relaxing)
  .debug_str     0x00000272       0x85 ./Project_Settings/Startup_Code/__arm_start.o
@@ -2077,49 +2079,49 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
                                 0x3af (size before relaxing)
  .debug_str     0x000010fc      0x230 ./Sources/drivers/mcg/mcg.o
                                 0x444 (size before relaxing)
- .debug_str     0x0000132c      0x1fb ./Sources/main.o
-                                0x4fb (size before relaxing)
- .debug_str     0x00001527       0xd7 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_str     0x0000132c      0x206 ./Sources/main.o
+                                0x593 (size before relaxing)
+ .debug_str     0x00001532       0xd7 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
                                 0x1f9 (size before relaxing)
- .debug_str     0x000015fe      0x14d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_str     0x00001609      0x14d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
                                 0x2c1 (size before relaxing)
- .debug_str     0x0000174b      0x102 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_str     0x00001756      0x102 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
                                 0x372 (size before relaxing)
- .debug_str     0x0000184d       0x6d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_str     0x00001858       0x6d C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
                                 0x365 (size before relaxing)
- .debug_str     0x000018ba      0x107 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_str     0x000018c5      0x107 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
                                 0x31b (size before relaxing)
- .debug_str     0x000019c1       0x7f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_str     0x000019cc       0x7f C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
                                 0x2ee (size before relaxing)
- .debug_str     0x00001a40       0x9a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_str     0x00001a4b       0x9a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
                                 0x249 (size before relaxing)
- .debug_str     0x00001ada      0x274 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
+ .debug_str     0x00001ae5      0x274 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_common_tables.o)
                                 0x401 (size before relaxing)
- .debug_str     0x00001d4e       0x48 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_str     0x00001d59       0x48 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
                                 0x157 (size before relaxing)
- .debug_str     0x00001d96       0x23 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_str     0x00001da1       0x23 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
                                 0x140 (size before relaxing)
- .debug_str     0x00001db9      0x22c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_str     0x00001dc4      0x22c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
                                 0x3b3 (size before relaxing)
- .debug_str     0x00001fe5      0x184 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_str     0x00001ff0      0x184 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
                                 0x3f9 (size before relaxing)
- .debug_str     0x00002169       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_str     0x00002174       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
                                 0x1bc (size before relaxing)
- .debug_str     0x00002206       0x5b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_str     0x00002211       0x5b C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
                                 0x1fb (size before relaxing)
- .debug_str     0x00002261       0x25 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_str     0x0000226c       0x25 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
                                 0x152 (size before relaxing)
- .debug_str     0x00002286       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_str     0x00002291       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
                                 0x148 (size before relaxing)
- .debug_str     0x000022a2       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_str     0x000022ad       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
                                 0x137 (size before relaxing)
- .debug_str     0x000022be       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_str     0x000022c9       0x1c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
                                 0x140 (size before relaxing)
- .debug_str     0x000022da      0x126 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x000022e5      0x126 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
                                 0x181 (size before relaxing)
- .debug_str     0x00002400       0x9c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_str     0x0000240b       0x9c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
                                 0x13c (size before relaxing)
- .debug_str     0x0000249c       0xf8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x000024a7       0xf8 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
                                 0x1b5 (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -2184,29 +2186,29 @@ OUTPUT(MonkeyListen.elf elf32-littlearm)
  .debug_frame   0x0000117c       0x48 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
  .debug_frame   0x000011c4       0xac C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
 
-.debug_loc      0x00000000     0xb531
+.debug_loc      0x00000000     0xb5b1
  .debug_loc     0x00000000      0x933 ./Sources/GFX/GFX_Driver_FRDM-OLED_NHD-2.712864.o
  .debug_loc     0x00000933     0x4b7e ./Sources/GFX/GFX.o
  .debug_loc     0x000054b1      0x1b7 ./Sources/drivers/adc16/adc16.o
  .debug_loc     0x00005668     0x12dd ./Sources/drivers/mcg/mcg.o
- .debug_loc     0x00006945       0x6b ./Sources/main.o
- .debug_loc     0x000069b0      0x23a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
- .debug_loc     0x00006bea      0x152 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
- .debug_loc     0x00006d3c      0x9db C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
- .debug_loc     0x00007717       0xc1 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
- .debug_loc     0x000077d8     0x19e5 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
- .debug_loc     0x000091bd      0x1ab C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
- .debug_loc     0x00009368      0x382 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
- .debug_loc     0x000096ea       0x3e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
- .debug_loc     0x00009728       0x64 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
- .debug_loc     0x0000978c      0xbdc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
- .debug_loc     0x0000a368      0x8b6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
- .debug_loc     0x0000ac1e      0x18e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
- .debug_loc     0x0000adac      0x2bb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
- .debug_loc     0x0000b067      0x12c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
- .debug_loc     0x0000b193       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
- .debug_loc     0x0000b1f5       0x7c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
- .debug_loc     0x0000b271       0x26 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
- .debug_loc     0x0000b297       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
- .debug_loc     0x0000b334       0xb9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
- .debug_loc     0x0000b3ed      0x144 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x00006945       0xeb ./Sources/main.o
+ .debug_loc     0x00006a30      0x23a C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cmplx_mag_q15.o)
+ .debug_loc     0x00006c6a      0x152 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_sqrt_q15.o)
+ .debug_loc     0x00006dbc      0x9db C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_q15.o)
+ .debug_loc     0x00007797       0xc1 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_rfft_init_q15.o)
+ .debug_loc     0x00007858     0x19e5 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_q15.o)
+ .debug_loc     0x0000923d      0x1ab C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_cfft_radix4_init_q15.o)
+ .debug_loc     0x000093e8      0x382 C:/Users/ehughes/Documents/GitHub/MonkeyListen/CMSIS_DSP_3.2/Debug\libCMSIS_DSP_3.2.a(arm_bitreversal.o)
+ .debug_loc     0x0000976a       0x3e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(exit.o)
+ .debug_loc     0x000097a8       0x64 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memset.o)
+ .debug_loc     0x0000980c      0xbdc C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(printformat_.o)
+ .debug_loc     0x0000a3e8      0x8b6 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(scanformat_.o)
+ .debug_loc     0x0000ac9e      0x18e C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(ctype_aeabi.o)
+ .debug_loc     0x0000ae2c      0x2bb C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__strtoul.o)
+ .debug_loc     0x0000b0e7      0x12c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(__filll_mem.o)
+ .debug_loc     0x0000b213       0x62 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(memchr.o)
+ .debug_loc     0x0000b275       0x7c C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strchr.o)
+ .debug_loc     0x0000b2f1       0x26 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\libc.a(strlen.o)
+ .debug_loc     0x0000b317       0x9d C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x0000b3b4       0xb9 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_loc     0x0000b46d      0x144 C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/lib/armv7e-m\librt.a(__arm_eabi_init.o)

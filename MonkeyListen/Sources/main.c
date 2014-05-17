@@ -21,8 +21,8 @@
 
 //Select the MonkeyListen Mode here!
 
-//#define MONKEY_LISTEN_MODE	MODE_TIME_DOMAIN_PLUS_FFT
-#define MONKEY_LISTEN_MODE	MODE_SPECTROGRAM
+#define MONKEY_LISTEN_MODE	MODE_TIME_DOMAIN_PLUS_FFT
+//#define MONKEY_LISTEN_MODE	MODE_SPECTROGRAM
 
 
 //Pick A Sample Rate.   8KHz works well for general viewing as most "voice" artifacts are quite low. (our FFT is 128 Points)
@@ -168,7 +168,7 @@ int main(void)
     Activebuffer = MicBuffer1;
     Backbuffer	 = MicBuffer2;
     
-    //Intilialize the FFT Structures
+    //Init the FFT Structures
     arm_rfft_init_q15(&RealFFT_Instance,
                       &MyComplexFFT_Instance,
                       128,
@@ -192,7 +192,7 @@ int main(void)
     		//If we are here we are ready to process our back buffer
     		
     		//Apply a Hanning window if the jumper is set.
-    		//If not, we just keep our rectanglular window
+    		//If not, we just keep our rectangular window
             if(!ENABLE_WINDOW_JUMPER)
                 {
                     for(i=0; i<128; i++)
@@ -248,7 +248,7 @@ int main(void)
                     //Scale the input before computing magnitude
                     for(i=0; i<256; i++)
                         {
-                            MicFFT[i]<<=8;
+                            MicFFT[i]<<=6;
                         }
                     
                     //FFT function returns the real / imaginary values.   We need to compute the magnitude
@@ -260,8 +260,8 @@ int main(void)
                     
                     for(i=0; i<64; i++)
                                            {
-                                               GFX_DrawVline(&GFX_BackBuffer,64,63-(MicFFT_Mag[i]>>8),(i*2),GFX_PIXEL_ON);
-                                               GFX_DrawVline(&GFX_BackBuffer,64,63-(MicFFT_Mag[i]>>8),(i*2) + 1,GFX_PIXEL_ON);
+                                               GFX_DrawVline(&GFX_BackBuffer,64,63-(MicFFT_Mag[i]>>6),(i*2),GFX_PIXEL_ON);
+                                               GFX_DrawVline(&GFX_BackBuffer,64,63-(MicFFT_Mag[i]>>6),(i*2) + 1,GFX_PIXEL_ON);
                                            }
                     
                    GFX_DumpImagePlaneToPhysicalScreen(&GFX_BackBuffer);
@@ -289,7 +289,7 @@ int main(void)
                               //Scale the input before computing magnitude
                               for(i=0; i<256; i++)
                                   {
-                                      MicFFT[i]<<=8;
+                                      MicFFT[i]<<=6;
                                   }
                               
                               //FFT function returns the real / imaginary values.   We need to compute the magnitude
@@ -305,7 +305,7 @@ int main(void)
                         
                               	  for(i=0;i<64;i++)
                                   		{
-                                  			DisplayBuf[63-i] = MicFFT_Mag[i]>>9;
+                                  			DisplayBuf[63-i] = MicFFT_Mag[i]>>7;
                                   			
                                   			//Fill in the low pixel.  Clip to 0xF if the value is great;
                                   			if(DisplayBuf[63-i] > 0xF)
@@ -360,15 +360,16 @@ int main(void)
 }
 
 /***
- *      _    _                   _              __          ___           _                  _____            __  __ _      _            _       
- *     | |  | |                 (_)             \ \        / (_)         | |                / ____|          / _|/ _(_)    (_)          | |      
- *     | |__| | __ _ _ __  _ __  _ _ __   __ _   \ \  /\  / / _ _ __   __| | _____      __ | |     ___   ___| |_| |_ _  ___ _  ___ _ __ | |_ ___ 
- *     |  __  |/ _` | '_ \| '_ \| | '_ \ / _` |   \ \/  \/ / | | '_ \ / _` |/ _ \ \ /\ / / | |    / _ \ / _ \  _|  _| |/ __| |/ _ \ '_ \| __/ __|
- *     | |  | | (_| | | | | | | | | | | | (_| |    \  /\  /  | | | | | (_| | (_) \ V  V /  | |___| (_) |  __/ | | | | | (__| |  __/ | | | |_\__ \
- *     |_|  |_|\__,_|_| |_|_| |_|_|_| |_|\__, |     \/  \/   |_|_| |_|\__,_|\___/ \_/\_/    \_____\___/ \___|_| |_| |_|\___|_|\___|_| |_|\__|___/
- *                                        __/ |                                                                                                  
- *                                       |___/                                                                                                   
+ *      _    _                   _              __          ___           _               
+ *     | |  | |                 (_)             \ \        / (_)         | |              
+ *     | |__| | __ _ _ __  _ __  _ _ __   __ _   \ \  /\  / / _ _ __   __| | _____      __
+ *     |  __  |/ _` | '_ \| '_ \| | '_ \ / _` |   \ \/  \/ / | | '_ \ / _` |/ _ \ \ /\ / /
+ *     | |  | | (_| | | | | | | | | | | | (_| |    \  /\  /  | | | | | (_| | (_) \ V  V / 
+ *     |_|  |_|\__,_|_| |_|_| |_|_|_| |_|\__, |     \/  \/   |_|_| |_|\__,_|\___/ \_/\_/  
+ *                                        __/ |                                           
+ *                                       |___/                                            
  */
+
 const q15_t Hanning[128] =
 {
     0	,
