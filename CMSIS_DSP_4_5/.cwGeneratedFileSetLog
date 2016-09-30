@@ -1,0 +1,13 @@
+Sources/main.c
+Includes/MK64F12.h
+Project_Settings/Startup_Code/system_MK64F12.c
+Includes/system_MK64F12.h
+Project_Settings/Startup_Code/startup_MK64F12.S
+Project_Settings/Linker_Files/MK64FN1M0xxx12_flash.ld
+Includes/core_cm0plus.h
+Includes/core_cm4.h
+Includes/core_cm4_simd.h
+Includes/core_cm7.h
+Includes/core_cmSimd.h
+Includes/core_cmFunc.h
+Includes/core_cmInstr.h
